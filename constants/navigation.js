@@ -13,7 +13,7 @@ const navigationConfig = [
     },
     {
         title: 'Наши услуги',
-        link: '/',
+        link: '/services',
     },
     {
         title: 'Частые вопросы',
