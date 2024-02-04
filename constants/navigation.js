@@ -5,12 +5,12 @@ const navigationConfig = [
     },
     {
         title: 'Удачные истории',
-        link: '/',
+        link: '/stories',
     },
-    {
-        title: 'Каталог Авто',
-        link: '/',
-    },
+    // {
+    //     title: 'Каталог Авто',
+    //     link: '/',
+    // },
     {
         title: 'Наши услуги',
         link: '/services',
@@ -19,10 +19,10 @@ const navigationConfig = [
         title: 'Частые вопросы',
         link: '/',
     },
-    {
-        title: 'Блог',
-        link: '/',
-    },
+    // {
+    //     title: 'Блог',
+    //     link: '/',
+    // },
     {
         title: 'Контакты',
         link: '/',

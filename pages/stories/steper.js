@@ -9,7 +9,7 @@ import FifthStep from '@/components/Steps/FifthStep';
 import SixthStep from '@/components/Steps/SixthStep';
 import FinishStep from '@/components/Steps/FinishStep';
 import SelectedCar from '@/components/Steps/SelectedCar';
-import CompanyInfoFrame from '@/components/CompanyInfoFrame';
+import Stories from '@/components/Stories';
 
 
 export default function Home() {
@@ -34,6 +34,7 @@ export default function Home() {
     };
 
   const stepIncrement = ({ vinNumber, referer: easyCarsReferer }) => {
+    //return null;
     setStep(step + 1);
     if (vinNumber) {
         setVin(vinNumber);
@@ -96,7 +97,7 @@ export default function Home() {
   return (
     <div className='root'>
       <Layout nodesUnderBg={<Steps currentStep={step}/>}>
-      <CompanyInfoFrame />
+      <Stories />
       </Layout>
     </div>
   )

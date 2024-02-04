@@ -2,6 +2,7 @@ import { useRouter } from 'next/router'
 import Layout from '@/components/Layout';
 import Hero from '@/components/Hero';
 import PurchaseProcess from '@/components/PurchaseProcess';
+import PurchaseProcessDe from '@/components/PurchaseProcessDe';
 import WhyWe from '@/components/WhyWe';
 import OurServices from '@/components/OurServices';
 import Stories from '@/components/Stories';
@@ -14,6 +15,7 @@ const router = useRouter();
     <div className='root'>
       <Layout nodesUnderBg={<Hero />}>
         <PurchaseProcess />
+        <PurchaseProcessDe />
         <WhyWe />
         <OurServices />
         <Stories />

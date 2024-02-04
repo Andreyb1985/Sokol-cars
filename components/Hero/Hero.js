@@ -15,18 +15,18 @@ const Layout = () => {
                         <a href="/steper">
                             <SelfCarSvg className={s.carSvg}/>
                             <h2>
-                                Купи машину сам
+                                Авто из США
                                 <ArrRight className={s.arr}
                                 />
                             </h2>
-                            <p>Пройди 5 шагов и купи машину сам. Мы поможем на каждом шаге, будем давать рекомендации... </p>
+                            <p></p>
                         </a>
                 </div>
                 
                 <div className={s.byuCarBtn}>
                     <a href="/buyTheCarYourself">
                         <ExpCarSvg className={s.carSvg}/>
-                        <h2>Помощь эксперта
+                        <h2>Авто из Германии
                             <ArrRight className={s.arr}/>
                         </h2>
                         <p>Обратитесь к нашим экспертам — они помогут выбрать автомобиль под ваши желания и бюджет...</p>
