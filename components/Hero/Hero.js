@@ -12,7 +12,7 @@ const Layout = () => {
             <div className={s.buttonContainer}>
                 
                 <div className={s.byuCarBtn}>
-                        <a href="/steper">
+                        <a href="/services/usa">
                             <SelfCarSvg className={s.carSvg}/>
                             <h2>
                                 Авто из США
@@ -24,7 +24,7 @@ const Layout = () => {
                 </div>
                 
                 <div className={s.byuCarBtn}>
-                    <a href="/buyTheCarYourself">
+                    <a href="/services/de">
                         <ExpCarSvg className={s.carSvg}/>
                         <h2>Авто из Германии
                             <ArrRight className={s.arr}/>

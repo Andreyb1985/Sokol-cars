@@ -1,52 +1,256 @@
-.companyInfoFrameChild {
-  height: 115px;
-  width: 1376px;
+.h1,
+.lodFrameChild {
+  position: relative;
+  max-width: 100%;
+}
+.h1 {
+  margin: 0;
+  width: 1035px;
+  height: 77px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.lodFrameChild {
+  width: 388px;
+  height: 500px;
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.div1 {
+  height: 39px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.optimalSolutionFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-14xl);
+}
+.p,
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6,
+.p7 {
+  margin: 0;
+}
+.div2 {
+  height: 171px;
+  position: relative;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  z-index: 1;
+}
+.serviceManagementFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+}
+.paymentInfoFrameChild {
+  height: 63px;
+  width: 201px;
+  position: relative;
+  background-color: var(--color-darkgray);
+  display: none;
+}
+.div3 {
+  height: 39px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  z-index: 2;
+}
+.paymentInfoFrame,
+.priceQuoteFrame {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.paymentInfoFrame {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) 45px var(--padding-xs) var(--padding-11xl);
+  background-color: var(--color-darkgray);
+  align-items: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.carrierInKlaipeda:hover,
+.currencySymbolDollar:hover,
+.generalQuestion:hover,
+.paymentInfoFrame:hover {
+  background-color: var(--color-dimgray);
+}
+.priceQuoteFrame {
+  align-items: flex-start;
+  padding: 0 var(--padding-14xl) 0 0;
+}
+.californiaPricingFrameChild,
+.lodFrame {
+  background-color: var(--color-gainsboro);
+  max-width: 100%;
+}
+.lodFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 53px var(--padding-4xl) var(--padding-47xl) 25px;
+  box-sizing: border-box;
+  gap: var(--gap-54xl);
+}
+.californiaPricingFrameChild {
+  width: 388px;
+  height: 500px;
+  position: relative;
+  display: none;
+}
+.div4 {
+  height: 39px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.optimalServiceControl {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 39px 0 0;
+}
+.p10,
+.p11,
+.p12,
+.p13,
+.p14,
+.p15,
+.p8,
+.p9 {
+  margin: 0;
+}
+.div5 {
+  height: 190px;
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+.p16,
+.p17 {
+  margin: 0;
+}
+.div6 {
+  height: 38px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  margin-top: -20px;
+}
+.serviceProcessManagement {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-height: 227px;
+  font-size: var(--font-size-base);
+}
+.currencySymbolDollarChild {
+  height: 63px;
+  width: 201px;
+  position: relative;
+  background-color: var(--color-darkgray);
+  display: none;
+}
+.div7 {
+  height: 39px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  z-index: 2;
+}
+.currencySymbolDollar {
+  cursor: pointer;
+  border: 0;
+  padding: 13px var(--padding-2xs) var(--padding-2xs);
+  background-color: var(--color-darkgray);
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.pricingDetailsForCarTransp {
+  width: 204px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+}
+.californiaPricingFrame,
+.optiveDealsFrame {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.californiaPricingFrame {
+  background-color: var(--color-gainsboro);
+  flex-direction: column;
+  align-items: center;
+  padding: 41px var(--padding-14xl) var(--padding-47xl) var(--padding-mini);
+  gap: var(--gap-13xl);
+}
+.optiveDealsFrame {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-mid);
+}
+.h3 {
+  margin: 0;
+  position: relative;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.ukrainePricesFrame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+  min-width: 295px;
+  max-width: 100%;
+}
+.dealerProposalsAndClientOfChild {
+  width: 350px;
+  height: 500px;
   position: relative;
   background-color: var(--color-gainsboro);
   display: none;
   max-width: 100%;
 }
-.h1 {
-  margin: 0;
-  height: 39px;
-  position: relative;
-  font-size: inherit;
-  font-weight: 400;
-  font-family: inherit;
-  display: inline-block;
-  white-space: nowrap;
-  z-index: 2;
-}
-.fAQsFrame {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-9xl) 0 0;
-}
 .h11 {
-  flex: 1;
-}
-.h11,
-.h12,
-.h13 {
-  margin: 0;
-  position: relative;
-  font-size: inherit;
-  font-weight: 400;
-  font-family: inherit;
-  white-space: nowrap;
-  z-index: 2;
-}
-.fAQsFrame1 {
-  flex: 0.9635;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-3xs) 0 0;
-}
-.h14 {
   margin: 0;
   height: 39px;
   position: relative;
@@ -54,39 +258,411 @@
   font-weight: 400;
   font-family: inherit;
   display: inline-block;
-  z-index: 2;
+  z-index: 1;
 }
-.companyInfoFrame {
-  align-self: stretch;
-  height: 115px;
-  background-color: var(--color-gainsboro);
+.serviceProcessManagement1 {
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+}
+.p18,
+.p19,
+.p20 {
+  margin: 0;
+}
+.div8 {
+  height: 57px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.p21,
+.p22,
+.p23,
+.p24,
+.p25,
+.p26,
+.p27,
+.p28 {
+  margin: 0;
+}
+.div9 {
+  height: 171px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.dealerAndClientPropositions,
+.transportCostsFromPortKlai {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.transportCostsFromPortKlai {
+  gap: 11px;
+  font-size: var(--font-size-base);
+}
+.dealerAndClientPropositions {
+  gap: 17px;
+}
+.carrierInKlaipedaChild {
+  height: 63px;
+  width: 201px;
+  position: relative;
+  background-color: var(--color-darkgray);
+  display: none;
+}
+.div10 {
+  height: 39px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  z-index: 2;
+}
+.carrierInKlaipeda {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) 29px var(--padding-xs) 50px;
+  background-color: var(--color-darkgray);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  white-space: nowrap;
+  z-index: 1;
+}
+.californiaLosAngelesTexasH {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-18xl) 0 0;
+}
+.californiaPricesFrame,
+.dealerProposalsAndClientOf {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.dealerProposalsAndClientOf {
+  background-color: var(--color-gainsboro);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-18xl) var(--padding-8xs) 62px;
+  box-sizing: border-box;
+  gap: var(--gap-24xl);
+}
+.californiaPricesFrame {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 21px;
+}
+.frameChild {
+  height: 177px;
+  width: 1233px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  flex-shrink: 0;
+  display: none;
+}
+.div11,
+.div12 {
+  position: relative;
+  z-index: 1;
+}
+.uSCarsInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-16xl);
+}
+.div13 {
+  position: relative;
+  z-index: 1;
+}
+.uSCarsInfo1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl) 0 var(--padding-16xl);
+}
+.gaSavannah1000 {
+  position: relative;
+  white-space: pre-wrap;
+  z-index: 1;
+}
+.frameWrapper,
+.parent,
+.uSCarsInfo2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.uSCarsInfo2 {
+  flex-direction: row;
+  padding: 0 var(--padding-16xl);
+}
+.frameWrapper,
+.parent {
+  flex-direction: column;
+}
+.parent {
+  gap: 18px;
+}
+.frameWrapper {
+  padding: 0 0 var(--padding-8xs);
+}
+.div14,
+.div15,
+.div16 {
+  position: relative;
+  z-index: 1;
+}
+.div16 {
+  display: inline-block;
+  max-width: 100%;
+}
+.westCoastPrices {
+  width: 440px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+  max-width: calc(100% - 758px);
+}
+.div17,
+.div18,
+.div19 {
+  position: relative;
+  z-index: 1;
+}
+.container,
+.group,
+.ukraineCityPrices {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-4xl);
+}
+.group,
+.ukraineCityPrices {
+  align-self: stretch;
+}
+.ukraineCityPrices {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-8xs);
+}
+.group {
+  flex-direction: column;
+  gap: 14px;
+}
+.div20 {
+  position: relative;
+  white-space: pre-wrap;
+  z-index: 1;
+}
+.lvivKievTransport {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xl) 0 var(--padding-4xl);
+}
+.easternEuropeDelivery,
+.quoteRequest {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.quoteRequest {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-22xl);
+}
+.easternEuropeDelivery {
+  width: 317px;
+  flex-shrink: 0;
+  align-items: flex-start;
+  padding: 0 0 19px;
+  box-sizing: border-box;
+}
+.rectangleParent,
+.savannhiaPriceFrame {
+  display: flex;
   align-items: flex-end;
   justify-content: flex-start;
-  padding: var(--padding-base) var(--padding-42xl) var(--padding-base)
-    var(--padding-38xl);
-  box-sizing: border-box;
-  gap: var(--gap-18xl);
-  top: 0;
-  z-index: 99;
-  position: sticky;
   max-width: 100%;
-  text-align: left;
+}
+.rectangleParent {
+  background-color: var(--color-gainsboro);
+  overflow-x: auto;
+  flex-direction: row;
+  padding: 18px var(--padding-4xl) var(--padding-5xl) var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-39xl);
+  font-size: var(--font-size-base);
+}
+.savannhiaPriceFrame {
+  width: 1234px;
+  flex-direction: column;
+  gap: 8px;
+}
+.nYLongIslandPriceFrame {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
   font-size: var(--font-size-13xl);
+}
+.dealerProposalFrame,
+.nYLongIslandPriceFrame,
+.servicePricesFrame {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.dealerProposalFrame {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-3xl);
+  text-align: left;
+  font-size: 64px;
   color: var(--color-black);
   font-family: var(--font-inter);
 }
-@media screen and (max-width: 1200px) {
-  .companyInfoFrame {
-    display: none;
-    padding-left: var(--padding-9xl);
-    padding-right: var(--padding-11xl);
-    box-sizing: border-box;
+.servicePricesFrame {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 38px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.generalQuestionChild {
+  height: 63px;
+  width: 255px;
+  position: relative;
+  background-color: var(--color-darkgray);
+  display: none;
+}
+.div21 {
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 1;
+}
+.contactUsQuery,
+.div,
+.generalQuestion {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.generalQuestion {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-mid) 9px 7px;
+  background-color: var(--color-darkgray);
+  align-items: flex-end;
+  white-space: nowrap;
+}
+.contactUsQuery,
+.div {
+  width: 316px;
+  align-items: flex-start;
+}
+.div {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 var(--padding-11xl) 6px 32px;
+  box-sizing: border-box;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .h1 {
+    font-size: 51px;
+  }
+  .div1,
+  .div4,
+  .h11 {
+    font-size: var(--font-size-7xl);
   }
 }
 @media screen and (max-width: 750px) {
-  .companyInfoFrame {
-    gap: var(--gap-18xl);
+  .californiaPricingFrame,
+  .lodFrame {
+    padding-bottom: var(--padding-24xl);
+    box-sizing: border-box;
+  }
+  .lodFrame {
+    padding-top: 34px;
+  }
+  .californiaPricingFrame {
+    padding-top: var(--padding-8xl);
+  }
+  .dealerProposalsAndClientOf {
+    padding-top: var(--padding-5xl);
+    padding-bottom: 40px;
+    box-sizing: border-box;
+  }
+  .rectangleParent {
+    gap: var(--gap-39xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .h1 {
+    font-size: 38px;
+  }
+  .div1 {
+    font-size: var(--font-size-lgi);
+  }
+  .serviceManagementFrame {
+    gap: var(--gap-16xl);
+  }
+  .lodFrame {
+    gap: var(--gap-54xl);
+  }
+  .div4 {
+    font-size: var(--font-size-lgi);
+  }
+  .californiaPricingFrame {
+    gap: var(--gap-13xl);
+  }
+  .h11,
+  .h3 {
+    font-size: var(--font-size-lgi);
+  }
+  .dealerProposalsAndClientOf {
+    gap: var(--gap-24xl);
+  }
+  .container {
+    flex-wrap: wrap;
+  }
+  .quoteRequest {
+    gap: var(--gap-22xl);
   }
 }

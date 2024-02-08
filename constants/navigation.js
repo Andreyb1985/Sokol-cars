@@ -12,17 +12,17 @@ const navigationConfig = [
     //     link: '/',
     // },
     {
-        title: 'Наши услуги',
-        link: '/services',
+        title: 'Авто из США',
+        link: '/services/usa',
+    },
+    {
+        title: 'Авто из Германии',
+        link: '/services/de',
     },
     {
         title: 'Частые вопросы',
-        link: '/',
+        link: '/blog',
     },
-    // {
-    //     title: 'Блог',
-    //     link: '/',
-    // },
     {
         title: 'Контакты',
         link: '/',

@@ -12,14 +12,12 @@ const Header = () => {
 
               <Logo/>
               <Contacts/>
-                <div className={s.auth}>
-                    <Auth />
-                </div>
-              <select className={s.lang}>
+                
+              {/* <select className={s.lang}>
                   <option value='RU'>RU</option>
                   <option value='UA'>UA</option>
                   <option value='EN'>EN</option>
-              </select>
+              </select> */}
           </div>
       </header>
     );
