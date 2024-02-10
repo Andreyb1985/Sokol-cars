@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Metrophobic:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-open-sans: "Open Sans";
+  --font-metrophobic: Metrophobic;
+  --font-montserrat: Montserrat;
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-lg: 18px;
+  --font-size-5xl: 24px;
+  --font-size-lgi: 19px;
+  --font-size-mini: 15px;
+  --font-size-sm: 14px;
+  --font-size-xl: 20px;
+  --font-size-base: 16px;
+  --font-size-xs-4: 11.4px;
+
+  /* Colors */
+  --neutral-100: #fff;
+  --color-black: #000;
+  --color-mediumslateblue: #384be8;
+  --color-mediumblue: #0047ff;
+  --color-gray-300: #787878;
+  --color-gray-400: #242424;
+  --color-gray-500: #201f1d;
+  --color-whitesmoke: #f4f4f4;
+  --color-dimgray: #737373;
+  --color-darkorange: #ff9307;
+
+  /* Gaps */
+  --gap-5xs: 8px;
+  --gap-0: 0px;
+  --gap-3xs: 10px;
+  --gap-8xs: 5px;
+  --gap-7xs: 6px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-mini: 15px;
+  --padding-3xs: 10px;
+  --padding-31xl: 50px;
+  --padding-4xs: 9px;
+  --padding-0: 0px;
+  --padding-11xs-7: 1.7px;
+  --padding-10xs: 3px;
+  --padding-11xs-9: 1.9px;
+  --padding-10xs-7: 2.7px;
+  --padding-12xs-3: 0.3px;
+  --padding-12xs-8: 0.8px;
+  --padding-11xs: 2px;
+  --padding-5xs-5: 7.5px;
+
+  /* Border radiuses */
+  --br-mini: 15px;
+  --br-9xs: 4px;
+  --br-8xs: 5px;
+  --br-10xs: 3px;
+}

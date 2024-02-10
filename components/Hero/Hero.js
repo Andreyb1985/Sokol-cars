@@ -19,7 +19,9 @@ const Layout = () => {
                                 <ArrRight className={s.arr}
                                 />
                             </h2>
-                            <p></p>
+                            <p>
+                                Оптимальная цена на рынке
+                            </p>
                         </a>
                 </div>
                 

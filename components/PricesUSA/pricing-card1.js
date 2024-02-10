@@ -39,7 +39,7 @@ const PricingCard1 = () => {
           <div className={styles.spacers1} />
         </div>
         <div className={styles.framePrice}>
-          <b className={styles.price1}>80 эвро</b>
+          <b className={styles.price1}>$250</b>
           <div className={styles.subtitleFrame1}>
             <b className={styles.squarePaperPlane1}>Что включено</b>
             <Px

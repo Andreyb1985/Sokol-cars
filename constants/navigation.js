@@ -5,7 +5,7 @@ const navigationConfig = [
     },
     {
         title: 'Удачные истории',
-        link: '/stories',
+        link: '/lackystory',
     },
     // {
     //     title: 'Каталог Авто',
@@ -25,7 +25,7 @@ const navigationConfig = [
     },
     {
         title: 'Контакты',
-        link: '/',
+        link: '/aboutus',
     },
 ];
 

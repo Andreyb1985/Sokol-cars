@@ -1,0 +1,219 @@
+.containerIcon {
+  align-self: stretch;
+  width: 1232px;
+  position: relative;
+  max-height: 100%;
+  display: none;
+  min-height: 845px;
+  max-width: 100%;
+}
+.h1,
+.haveAProject {
+  position: relative;
+  z-index: 1;
+}
+.h1 {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  line-height: 63.98px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.haveAProject {
+  font-size: var(--headings-bold-16-size);
+  line-height: 150%;
+  font-family: var(--paragraph-medium-14);
+}
+.aboutUsText,
+.h3,
+.haveAProject {
+  align-self: stretch;
+}
+.aboutUsText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.h3 {
+  margin: 0;
+  font-size: inherit;
+  line-height: 31.99px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.b,
+.containerIcon1,
+.h3 {
+  position: relative;
+  z-index: 1;
+}
+.containerIcon1 {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  background-color: var(--blue-blue-30);
+}
+.b {
+  line-height: 22px;
+}
+.emailTextBox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.containerIcon2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--blue-blue-30);
+  z-index: 1;
+}
+.hellostudioco {
+  position: relative;
+  line-height: 22px;
+  z-index: 1;
+}
+.emailTextBox1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.b1,
+.containerIcon3 {
+  position: relative;
+  z-index: 1;
+}
+.containerIcon3 {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  background-color: var(--blue-blue-30);
+}
+.b1 {
+  line-height: 22px;
+  white-space: pre-wrap;
+}
+.emailTextBox2,
+.phoneNumberTextBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.phoneNumberTextBox {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+  font-size: var(--headings-bold-16-size);
+}
+.messagesBoxFrame {
+  align-self: stretch;
+  gap: var(--gap-11xl);
+  font-size: var(--headings-bold-24-size);
+}
+.aboutUsTextParent,
+.frameWrapper,
+.messagesBoxFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.aboutUsTextParent {
+  align-self: stretch;
+  gap: var(--gap-44xl);
+}
+.frameWrapper {
+  width: 400px;
+  padding: var(--padding-85xl) 0 0;
+  box-sizing: border-box;
+  min-width: 400px;
+  max-width: 100%;
+}
+.containerParent,
+.div {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.containerParent {
+  width: 1232px;
+  background-color: var(--blue-blue-70);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-85xl);
+  gap: var(--gap-85xl);
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--headings-bold-48-size);
+  color: var(--text-white);
+  font-family: var(--headings-bold-16);
+}
+.div {
+  width: 100%;
+  position: relative;
+  background-color: var(--text-white);
+  overflow: hidden;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 144px var(--padding-xl) 35px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .containerParent {
+    padding-left: 52px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .h1 {
+    font-size: 38px;
+    line-height: 51px;
+  }
+  .frameWrapper {
+    flex: 1;
+  }
+  .containerParent {
+    flex-wrap: wrap;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameWrapper {
+    padding-top: var(--padding-49xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .containerParent {
+    gap: var(--gap-85xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .h1 {
+    font-size: 29px;
+    line-height: 38px;
+  }
+  .h3 {
+    font-size: 19px;
+    line-height: 26px;
+  }
+  .aboutUsTextParent {
+    gap: var(--gap-44xl);
+  }
+  .containerParent {
+    gap: var(--gap-85xl);
+  }
+}

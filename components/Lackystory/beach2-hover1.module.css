@@ -1,0 +1,342 @@
+.unsplashyapiwyp0lqoIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-mini) var(--br-mini) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.headingLinkGroup {
+  position: relative;
+  font-weight: 500;
+}
+.vectorGroup {
+  border-radius: var(--br-10xs);
+  background-color: var(--color-gray-400);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-3xs);
+}
+.carParts,
+.unsplashApiFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.carParts {
+  margin: 0 !important;
+  position: absolute;
+  top: 20.4px;
+  left: 10px;
+  z-index: 1;
+}
+.unsplashApiFrame {
+  align-self: stretch;
+  height: 269.6px;
+  position: relative;
+  gap: var(--gap-7xs);
+}
+.div,
+.heading3,
+.symbol {
+  position: relative;
+  line-height: 24px;
+}
+.div,
+.symbol {
+  line-height: 14px;
+}
+.div {
+  font-size: var(--font-size-mini);
+  line-height: 22.5px;
+  font-weight: 600;
+  font-family: var(--font-open-sans);
+  color: var(--color-dimgray);
+  white-space: pre-wrap;
+}
+.divlistRating,
+.divlistingFeatures {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.divlistRating {
+  flex-direction: row;
+  align-items: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkorange);
+  font-family: var(--font-montserrat);
+}
+.divlistingFeatures {
+  border-bottom: 1px solid var(--color-whitesmoke);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-3xs);
+}
+.vectorGroupIcon {
+  height: 16.2px;
+  width: 15.3px;
+  position: relative;
+}
+.carParts01svg,
+.carParts01svg1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.carParts01svg1 {
+  justify-content: flex-start;
+  padding: 0.33945325016975403px 0.33886757493019104px 0.8203749656677246px
+    0.33888015151023865px;
+}
+.carParts01svg {
+  justify-content: center;
+  padding: var(--padding-0) 0.00153809180483222px var(--padding-0)
+    0.0015384615398943424px;
+}
+.auto {
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 22.5px;
+  font-family: var(--font-metrophobic);
+  color: var(--color-gray-300);
+  text-align: left;
+}
+.item,
+.ph2d1f1d1c80 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.item {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-0) var(--padding-3xs) var(--padding-0) var(--padding-0);
+  background-color: transparent;
+  border-right: 1px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--gap-5xs);
+  max-width: 125.32080078125px;
+}
+.carPartVector {
+  height: 13.4px;
+  width: 10px;
+  position: relative;
+}
+.carParts06svg,
+.carParts06svg1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.carParts06svg1 {
+  width: 16px;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  padding: 1.6528300046920776px var(--padding-10xs) 1.9471999406814575px
+    2.6666600704193115px;
+  box-sizing: border-box;
+}
+.carParts06svg {
+  justify-content: center;
+}
+.persons {
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 22.5px;
+  font-family: var(--font-metrophobic);
+  color: var(--color-gray-300);
+  text-align: left;
+}
+.item1,
+.item2,
+.list1,
+.ph2d4d66a3dd {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.item1,
+.item2,
+.list1 {
+  align-items: center;
+}
+.item2 {
+  gap: var(--gap-5xs);
+  max-width: 125.32080078125px;
+}
+.item1,
+.list1 {
+  padding: var(--padding-0) 0.029998779296875px var(--padding-0)
+    0.029999999329447746px;
+}
+.item1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-0) var(--padding-4xs) var(--padding-0) var(--padding-0);
+  background-color: transparent;
+  border-right: 1px solid var(--color-whitesmoke);
+  flex-direction: column;
+}
+.carParts03svg1 {
+  position: absolute;
+  top: calc(50% - 7px);
+  left: calc(50% - 18px);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.petrolSymbolIcon {
+  position: absolute;
+  top: 0.5px;
+  left: 0.9px;
+  width: 15px;
+  height: 14.2px;
+  z-index: 1;
+}
+.carParts03svg {
+  height: 14.8px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.petrol {
+  position: relative;
+  line-height: 22.5px;
+}
+.item3,
+.list,
+.ph2d8a43bf71 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.item3,
+.list {
+  align-items: center;
+}
+.item3 {
+  gap: var(--gap-5xs);
+  max-width: 125.32080078125px;
+}
+.list {
+  align-self: stretch;
+  gap: var(--gap-3xs);
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.divlistingDetailsGroup,
+.frameGroup,
+.heading6 {
+  display: flex;
+  justify-content: flex-start;
+}
+.divlistingDetailsGroup {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-300);
+  font-family: var(--font-metrophobic);
+}
+.heading6 {
+  width: 188px;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-black);
+  height: 44px;
+  border-radius: var(--br-8xs) 0 0 var(--br-8xs);
+  flex-direction: row;
+  align-items: center;
+  padding: 7.499999999999972px var(--padding-xl) 7.500000000000028px;
+  box-sizing: border-box;
+  font-family: var(--font-open-sans);
+  font-weight: 700;
+  font-size: var(--font-size-5xl);
+  color: var(--color-mediumslateblue);
+}
+.buyNow {
+  position: relative;
+  line-height: 24px;
+}
+.divlistingLocationDetails,
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.link {
+  border-radius: 0 var(--br-9xs) var(--br-8xs) 0;
+  background-color: var(--color-mediumslateblue);
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-31xl);
+  white-space: nowrap;
+}
+.divlistingLocationDetails {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-0);
+  row-gap: 20px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--neutral-100);
+}
+.divlistingContent {
+  align-self: stretch;
+  padding: var(--padding-3xs) var(--padding-0) var(--padding-0);
+  gap: var(--gap-5xs);
+}
+.beach2Hover,
+.divListingRating,
+.divlistingContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divListingRating {
+  align-self: stretch;
+  padding: var(--padding-0) var(--padding-mini);
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-500);
+  font-family: var(--font-open-sans);
+}
+.beach2Hover {
+  width: 406px;
+  border-radius: var(--br-mini);
+  background-color: var(--neutral-100);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  padding: var(--padding-0) var(--padding-0) var(--padding-mini);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xs-4);
+  color: var(--neutral-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 450px) {
+  .heading3 {
+    font-size: var(--font-size-base);
+    line-height: 19px;
+  }
+  .divlistingLocationDetails,
+  .list {
+    flex-wrap: wrap;
+  }
+}
