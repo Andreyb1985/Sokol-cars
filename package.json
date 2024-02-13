@@ -1,40 +1,31 @@
 {
-  "name": "learn-starter",
+  "name": "socol-cars-2",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "node server.mjs",
-    "devBack": "node --experimental-json-modules server2.mjs",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "svg": "svgr -d components/icons components/icons/svgs",
-    "export": "next export"
+    "lint": "next lint"
   },
   "dependencies": {
-    "@emotion/react": "^11.4.1",
-    "@emotion/styled": "^11.3.0",
-    "@material-ui/core": "^4.12.3",
-    "@mui/icons-material": "^5.0.4",
-    "@mui/material": "^5.0.4",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.9",
+    "@mui/material": "^5.15.9",
     "@nextui-org/react": "^2.2.9",
-    "body-parser": "^1.19.1",
-    "express": "^4.17.1",
+    "@nextui-org/system": "^2.0.15",
+    "@nextui-org/theme": "^2.1.17",
     "framer-motion": "^11.0.3",
-    "http-proxy-middleware": "^2.0.1",
-    "lodash": "^4.17.21",
-    "next": "^11.0.0",
-    "next-auth": "^4.1.2",
-    "node-fetch": "^3.1.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-image-gallery": "^1.2.7",
-    "request": "^2.88.2",
-    "request-cookies": "^1.1.0",
-    "tailwindcss": "^3.4.1",
-    "xlsx-to-json": "^0.3.0"
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "@svgr/cli": "^5.5.0",
-    "esm": "^3.2.25"
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
   }
 }
