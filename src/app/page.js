@@ -5,7 +5,7 @@ import PurchaseProcess from '@/components/PurchaseProcess';
 import PurchaseProcessDe from '@/components/PurchaseProcessDe';
 import WhyWe from '@/components/WhyWe';
 import OurServices from '@/components/OurServices';
-import Stories from '@/components/stories';
+import Stories from '@/components/Stories';
 import Questions from '@/components/Questions';
 
 export default function Home() {
