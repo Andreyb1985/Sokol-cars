@@ -9,6 +9,7 @@ const BlogLayout = () => {
     <Layout>
       <div className="w-screen h-screen p-8 flex items-start justify-center">
         <Blog/>
+        <Blog/>
       </div>
     </Layout>
   );

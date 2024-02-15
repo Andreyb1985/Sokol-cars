@@ -2,11 +2,11 @@ import React from 'react';
 import Image from "next/image";
 import logo from "@/images/logo.png";
 import mustang from '@/images/mustang.png';
-import jeep from '@/images/jeep.jpg';
-import ford from '@/images/ford.jpg';
-import volkswagen from '@/images/volkswagen.jpg';
-import fordEscape from '@/images/ford_escape.jpg';
-import audi from '@/images/audi.jpg';
+import jeep from '@/images/bmwf10.png';
+import ford from '@/images/bmwx5.png';
+import volkswagen from '@/images/q5.png';
+import fordEscape from '@/images/dodge.png';
+import audi from '@/images/bmwg30.png';
 import { Play, ArrRightBlue } from '@/components/icons';
 
 import s from './Stories.module.css';

@@ -10,7 +10,7 @@ const Page = () => {
     <div className={styles.div}>
       <main className={styles.divListingContent}>
         <Beach2Hover1
-          unsplashYApiWyp0lqo="/unsplashyapiwyp0lqo@2x.png"
+          unsplashYApiWyp0lqo="/mustang.png"
           headingLinkGroup="2015"
           heading3LinkToyotaCamrySE="Ford Mustang 5.0"
           prop="43тыс  км"
@@ -18,7 +18,7 @@ const Page = () => {
           heading6Placeholder="$12300"
         />
         <Beach2Hover1
-          unsplashYApiWyp0lqo="/unsplashyapiwyp0lqo-1@2x.png"
+          unsplashYApiWyp0lqo="/bmwf10.png"
           headingLinkGroup="2013"
           heading3LinkToyotaCamrySE="BMW 5 F10"
           prop="113 тыс км"
@@ -27,7 +27,7 @@ const Page = () => {
           buyNowColor="#384be8"
         />
         <Beach2Hover1
-          unsplashYApiWyp0lqo="/unsplashyapiwyp0lqo-2@2x.png"
+          unsplashYApiWyp0lqo="/bmwx5.png"
           headingLinkGroup="2017"
           heading3LinkToyotaCamrySE="BMW X5 F15"
           prop="63 тыс км"
@@ -41,7 +41,7 @@ const Page = () => {
               className={styles.unsplashyapiwyp0lqoIcon}
               loading="eager"
               alt=""
-              src="/unsplashyapiwyp0lqo-3@2x.png"
+              src="/q5.png"
             />
             <div className={styles.frameWrapper}>
               <div className={styles.wrapper}>
@@ -122,7 +122,7 @@ const Page = () => {
           </div>
         </div>
         <Beach2Hover
-          unsplashYApiWyp0lqo="/unsplashyapiwyp0lqo-4@2x.png"
+          unsplashYApiWyp0lqo="/dodge.png"
           prop="2015"
           heading3LinkToyotaCamrySE="Dodge Challenger"
           prop1="80 тыс км"
@@ -130,7 +130,7 @@ const Page = () => {
           byuNow="Byu Now"
         />
         <Beach2Hover
-          unsplashYApiWyp0lqo="/unsplashyapiwyp0lqo-5@2x.png"
+          unsplashYApiWyp0lqo="/bmwg30.png"
           prop="2017"
           heading3LinkToyotaCamrySE="BMW 5 G30"
           prop1="23 тыс км"
