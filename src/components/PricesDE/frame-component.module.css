@@ -1,0 +1,46 @@
+.price {
+  position: relative;
+  line-height: 66px;
+  white-space: nowrap;
+}
+.monthly,
+.spacer {
+  background-color: var(--neutral-100);
+}
+.spacer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  opacity: 0;
+}
+.monthly {
+  height: 5.6px;
+  width: 6px;
+  position: relative;
+}
+.priceText {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--headings-typography-size-1-size);
+  color: var(--neutral-100);
+  font-family: var(--text-single-200-bold);
+}
+@media screen and (max-width: 1050px) {
+  .price {
+    font-size: var(--font-size-24xl);
+    line-height: 53px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .price {
+    font-size: var(--font-size-13xl);
+    line-height: 40px;
+  }
+}

@@ -8,7 +8,7 @@ import ArrRight from '../icons/ArrRight'
 const Layout = () => {
     return (
         <>
-            <h1 className={s.title}>Самостоятельная покупка и доставка авто из США</h1>
+            <h1 className={s.title}>Автомобиль мечты из США и Германии </h1>
             <div className={s.buttonContainer}>
                 
                 <div className={s.byuCarBtn}>
@@ -20,7 +20,7 @@ const Layout = () => {
                                 />
                             </h2>
                             <p>
-                                Оптимальная цена на рынке
+                                Доступная цена и широкий выбор автоиобилей
                             </p>
                         </a>
                 </div>
@@ -31,7 +31,7 @@ const Layout = () => {
                         <h2>Авто из Германии
                             <ArrRight className={s.arr}/>
                         </h2>
-                        <p>Обратитесь к нашим экспертам — они помогут выбрать автомобиль под ваши желания и бюджет...</p>
+                        <p>Быстрая доставка и немецкое качество</p>
                     </a>
                 </div> 
             </div> 

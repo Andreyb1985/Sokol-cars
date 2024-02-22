@@ -10,6 +10,7 @@ import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import s from './CustomDrawler.module.css'
+import Link from 'next/link';
 
 const drawerWidth = 240;
 
@@ -50,14 +51,14 @@ const CustomDrawer = ({ navigationConfig = [] }) => {
                         <List>
                             {navigationConfig.map(({ link, title } = {}) => (
                                 <ListItem button key={title}>
-                                  <ListItemText primary={title} />
+                                  <Link href={link}>{title}</Link>
                                 </ListItem>
                                 ))}
 
                         </List>
                         <Divider />
                         <List>
-                            {['+380504111721', 'обратный звонок', 'показать все номера'].map((text, index) => (
+                            {['+3805041111721', 'обратный звонок', 'показать все номера'].map((text, index) => (
                                 <ListItem button key={text}>
                                     {/* <ListItemIcon>
                                         {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}

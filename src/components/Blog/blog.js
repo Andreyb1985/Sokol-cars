@@ -4,6 +4,7 @@ import React from "react";
 import {Button} from "@nextui-org/button";
 import {Accordion} from "@nextui-org/accordion";
 import {AccordionItem} from "@nextui-org/accordion";
+import s from "./Blog.module.css";
 
 export default function Blog() {
   const defaultContent =
@@ -16,13 +17,13 @@ export default function Blog() {
   return (
     <>
       <Accordion variant="splitted">
-        <AccordionItem  color="red" key="1" aria-label="Совет первый" title="Совет первый">
+        <AccordionItem  classNames={{base: s.itemBase, title: s.itemText, indicator: s.itemIndicator, content: s.itemText}} key="1" aria-label="Совет первый" title="Совет первый">
           {defaultContent}
         </AccordionItem>
-        <AccordionItem key="2" aria-label="Совет второй" title="Совет второй">
+        <AccordionItem classNames={{base: s.itemBase, title: s.itemText, indicator: s.itemIndicator, content: s.itemText}} key="2" aria-label="Совет второй" title="Совет второй">
           {Content1}
         </AccordionItem>
-        <AccordionItem key="3" aria-label="Совет третий" title="Совет третий">
+        <AccordionItem classNames={{base: s.itemBase, title: s.itemText, indicator: s.itemIndicator, content: s.itemText}} key="3" aria-label="Совет третий" title="Совет третий">
           {Content2}
         </AccordionItem>
       </Accordion>

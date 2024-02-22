@@ -1,0 +1,46 @@
+.lineRoundedsearchIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.buttonText {
+  position: relative;
+  font-size: var(--text-single-200-bold-size);
+  line-height: 20px;
+  font-family: var(--text-single-200-bold);
+  color: var(--neutral-100);
+  text-align: center;
+}
+.lineRoundedarrowRight {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.masterPrimaryButton,
+.primaryButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.masterPrimaryButton {
+  flex: 1;
+  border-radius: var(--br-77xl);
+  background-color: var(--color-mediumslateblue);
+  padding: var(--padding-7xl);
+  gap: var(--gap-7xs);
+}
+.primaryButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 308px;
+  z-index: 1;
+}

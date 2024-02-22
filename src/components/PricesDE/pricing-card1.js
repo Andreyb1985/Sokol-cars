@@ -39,15 +39,15 @@ const PricingCard1 = () => {
           <div className={styles.spacers1} />
         </div>
         <div className={styles.framePrice}>
-          <b className={styles.price1}>$250</b>
+          <b className={styles.price1}>80 Euro</b>
           <div className={styles.subtitleFrame1}>
             <b className={styles.squarePaperPlane1}>Что включено</b>
             <Px
               filledIconsCheckCName="radioGroup-2"
-              text200="Фото из порта в США и Клайпеды"
-              text2001="Покупка Авто на аукционе"
-              text2002="Проверка авто перед покупкой"
-              pricetext="Страховка авто "
+              text200="Осмотр автомобиля(интерьер и экстерьер)"
+              text2001="Компьютерная диагностика автомобиля"
+              text2002="Проверка ЛКП прибором"
+              pricetext="Фото и видео отчет. Тест драйв"
             />
           </div>
           <PrimaryButton />

@@ -1,12 +1,12 @@
-import PricingCard1 from "@/components/PricesUSA/pricing-card1";
-import FrameComponent from "@/components/PricesUSA/frame-component";
+import PricingCard1 from "@/components/PricesDE/pricing-card1";
+import FrameComponent from "@/components/PricesDE/frame-component";
 import Px from "@/components/PricesUSA/px";
-import PrimaryButton from "@/components/PricesUSA/primary-button";
-import PricingCard from "@/components/PricesUSA/pricing-card";
+import PrimaryButton from "@/components/PricesDE/primary-button";
+import PricingCard from "@/components/PricesDE/pricing-card";
 import styles from "./index.module.css";
 import Layout from '@/components/Layout';
 
-const PricesUSA = () => {
+const PricesDE = () => {
   return (
     <div className='root'>
       <Layout>
@@ -101,4 +101,4 @@ const PricesUSA = () => {
   );
 };
 
-export default PricesUSA;
+export default PricesDE;
