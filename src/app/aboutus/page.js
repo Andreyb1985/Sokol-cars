@@ -15,8 +15,7 @@ const Page = () => {
             <div className={styles.aboutUsText}>
               <h1 className={styles.h1}>Про нас</h1>
               <div className={styles.haveAProject}>
-                Have a project in mind that you think we’d be a great fit for
-                it? We’d love to know what you’re thinking
+               Наша Компания занимается поиском и доставкой автомобилей из США и Германии с 2019 года.
               </div>
             </div>
             <div className={styles.messagesBoxFrame}>
@@ -24,7 +23,7 @@ const Page = () => {
               <div className={styles.phoneNumberTextBox}>
                 <div className={styles.emailTextBox}>
                   <div className={styles.containerIcon1} />
-                  <b className={styles.b}>Телефонный номер: (62) 1829017</b>
+                  <b className={styles.b}>Телефонный номер: +491754068143 </b>
                 </div>
                 <div className={styles.emailTextBox1}>
                   <div className={styles.containerIcon2} />
