@@ -24,7 +24,7 @@ const Page = () => {
               <div className={styles.phoneNumberTextBox}>
                 <div className={styles.emailTextBox}>
                   <div className={styles.containerIcon1} />
-                  <b className={styles.b}>Телефонный номер: <a href= "https://wa.me/380504111721:">+380504111721</a> </b>
+                  <b className={styles.b}>Телефонный номер: <a href= "https://api.whatsapp.com/send?phone=380504111721">+380504111721</a> </b>
                 </div>
                 <div className={styles.emailTextBox1}>
                   <div className={styles.containerIcon2} />
