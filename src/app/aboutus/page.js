@@ -24,11 +24,11 @@ const Page = () => {
               <div className={styles.phoneNumberTextBox}>
                 <div className={styles.emailTextBox}>
                   <div className={styles.containerIcon1} />
-                  <b className={styles.b}>Телефонный номер: +491754068143 </b>
+                  <b className={styles.b}>Телефонный номер: <a href= "whatsapp: +380504111721">+380504111721</a> </b>
                 </div>
                 <div className={styles.emailTextBox1}>
                   <div className={styles.containerIcon2} />
-                  <b className={styles.hellostudioco}>Почта: andriibakanov@gmail.com</b>
+                  <b className={styles.hellostudioco}>Почта: <a href="mailto:andriibakanov@gmail.com">andriibakanov@gmail.com</a></b>
                 </div>
                 <div className={styles.emailTextBox2}>
                   <div className={styles.containerIcon3} />
