@@ -7,7 +7,7 @@ const Logo = () => {
     return (
         <div className={s.logoContainer}>
             <a href='/'>
-                <span className={s.logo}>Sokol<span>car</span></span>
+                <span className={s.logo}>Sokol<span>auto</span></span>
                 <div className={s.logoPng}>
                     <Image src={logo} />
                 </div>

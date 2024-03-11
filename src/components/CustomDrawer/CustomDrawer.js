@@ -58,7 +58,7 @@ const CustomDrawer = ({ navigationConfig = [] }) => {
                         </List>
                         <Divider />
                         <List>
-                            {['+3805041111721', 'обратный звонок', 'показать все номера'].map((text, index) => (
+                            {['+3805041111721','+491754068143', 'обратный звонок'].map((text, index) => (
                                 <ListItem button key={text}>
                                     {/* <ListItemIcon>
                                         {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
