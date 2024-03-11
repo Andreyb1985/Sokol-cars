@@ -28,7 +28,8 @@ const PricingCard1 = () => {
               </div>
             </div>
           </div>
-          <div className={styles.paragraph}>Осмотр автомобиля по вашему запросу</div>
+          <div className={styles.paragraph}>Осмотр автомобиля по вашему запросу.</div>
+          <div className={styles.paragraph}>Земля Nordrhein-Westfalen</div>
         </div>
       </div>
       <div className={styles.monthly}>

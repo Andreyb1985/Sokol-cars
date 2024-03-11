@@ -49,7 +49,7 @@ const PricesDE = () => {
               </div>
             </div>
             <div className={styles.paragraph}>
-              Поиск и подбор автомобиля в Германии под ключ.
+              Поиск и подбор автомобиля в Германии под ключ. NRW,DE
             </div>
           </div>
         </div>
@@ -65,10 +65,10 @@ const PricesDE = () => {
                 <div className={styles.listItemFrame}>
                   <div className={styles.spacers1} />
                   <Px
-                    text200="Подбор Автомобиля NRW,DE"
-                    text2001="Осмотр интерьера и экстерьера авто"
-                    text2002="Компьютерная диагностика"
-                    pricetext="Фото и видео отчет"
+                    text200="Осмотр интерьера и экстерьера авто"
+                    text2001="Компьютерная диагностика"
+                    text2002="Проверка ЛКП прибором"
+                    pricetext="Фото и видео отчет. Тест драйв."
                     propAlignSelf="unset"
                     propFlex="1"
                     propAlignSelf1="unset"

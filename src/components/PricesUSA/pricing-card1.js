@@ -28,7 +28,7 @@ const PricingCard1 = () => {
               </div>
             </div>
           </div>
-          <div className={styles.paragraph}>Осмотр автомобиля по вашему запросу</div>
+          <div className={styles.paragraph}>Покупка автомобиля по вашему запросу</div>
         </div>
       </div>
       <div className={styles.monthly}>
@@ -39,14 +39,14 @@ const PricingCard1 = () => {
           <div className={styles.spacers1} />
         </div>
         <div className={styles.framePrice}>
-          <b className={styles.price1}>$250</b>
+          <b className={styles.price1}>$200</b>
           <div className={styles.subtitleFrame1}>
             <b className={styles.squarePaperPlane1}>Что включено</b>
             <Px
               filledIconsCheckCName="radioGroup-2"
               text200="Фото из порта в США и Клайпеды"
-              text2001="Покупка Авто на аукционе"
-              text2002="Проверка авто перед покупкой"
+              text2001="Сопровождение клиента от покупки до доставки в Украину"
+              text2002="Проверка авто Экспертом перед покупкой"
               pricetext="Страховка авто "
             />
           </div>

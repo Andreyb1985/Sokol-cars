@@ -29,8 +29,11 @@ const PricingCard = () => {
             </div>
           </div>
           <div className={styles.paragraph}>
-            <p className={styles.p}>Предложение для диллеров</p>
-            <p className={styles.p1}>и оптовых клиентов.</p>
+            <p className={styles.p}>Предложение оптовых клиентов.</p>
+            <p className={styles.p1}>Заказ от 10 осмотров.</p>
+          </div>
+          <div className={styles.paragraph}>
+            <p className={styles.p}>Земля Nordrhein-Westfalen</p>
           </div>
         </div>
       </div>
@@ -40,7 +43,7 @@ const PricingCard = () => {
         </div>
         <div className={styles.frameDiv}>
           <div className={styles.priceParent}>
-            <b className={styles.price1}>50 Euro</b>
+            <b className={styles.price1}>60 Euro</b>
             <div className={styles.frameprice}>
               <b className={styles.text200}>Что включено</b>
               <div className={styles.px}>
@@ -51,7 +54,7 @@ const PricingCard = () => {
                       type="radio" checked
                     />
                     <div className={styles.text2001}>
-                      Покупка Авто на аукционе
+                      Осмотр автомобиля(интерьер и экстерьер)
                     </div>
                   </div>
                 </div>
@@ -61,7 +64,7 @@ const PricingCard = () => {
                       className={styles.filledIconscheckCircle1}
                       type="radio" checked
                     />
-                    <div className={styles.text2002}>Страховка авто</div>
+                    <div className={styles.text2002}>Компьютерная диагностика автомобиля</div>
                   </div>
                 </div>
                 <div className={styles.framelistitem}>
@@ -72,7 +75,7 @@ const PricingCard = () => {
                         type="radio" checked
                       />
                       <div className={styles.text2003}>
-                        Проверка авто перед покупкой
+                      Проверка ЛКП прибором
                       </div>
                     </div>
                   </div>
@@ -85,7 +88,7 @@ const PricingCard = () => {
                         type="radio" checked
                       />
                       <div className={styles.text2004}>
-                        Фото из порта в США и Клайпеды
+                      Фото и видео отчет. Тест драйв
                       </div>
                     </div>
                   </div>

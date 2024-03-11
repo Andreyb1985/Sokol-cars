@@ -48,7 +48,7 @@ const PricesUSA = () => {
               </div>
             </div>
             <div className={styles.paragraph}>
-              Предложение для Оптимального пакета
+            Индивидуальный поиск и подбор автомобиля. 
             </div>
           </div>
         </div>

@@ -16,6 +16,7 @@ const Page = () => {
               <h1 className={styles.h1}>Про нас</h1>
               <div className={styles.haveAProject}>
                Наша Компания занимается поиском и доставкой автомобилей из США и Германии с 2019 года.
+               Мы купили клиентам более 100 автомобилей под разные запросы и бюджет.
               </div>
             </div>
             <div className={styles.messagesBoxFrame}>
@@ -27,7 +28,7 @@ const Page = () => {
                 </div>
                 <div className={styles.emailTextBox1}>
                   <div className={styles.containerIcon2} />
-                  <b className={styles.hellostudioco}>Почта: Hello@studio.co</b>
+                  <b className={styles.hellostudioco}>Почта: andriibakanov@gmail.com</b>
                 </div>
                 <div className={styles.emailTextBox2}>
                   <div className={styles.containerIcon3} />

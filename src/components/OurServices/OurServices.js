@@ -10,7 +10,7 @@ const OurServices = () => {
             <ul className={s.servicesList}>
                 <li className={ `${s.firstService} ${s.servicesItem}`}>
                     <p className={s.servicesTitle}>Комплексное сопровождение</p>
-                    <a href="#" className={s.sectionDetails}>Подробнее <ArrRight className={s.arrSvg}/></a>
+                    <a href="/services/usa" className={s.sectionDetails}>Подробнее <ArrRight className={s.arrSvg}/></a>
                 </li>
                  <li className={ `${s.secoundService} ${s.servicesItem}`}>
                     <p className={s.servicesTitle}>Экспертная проверка выбранного вами автомобиля</p>
