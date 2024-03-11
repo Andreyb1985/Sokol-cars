@@ -5,6 +5,7 @@ import PrimaryButton from "@/components/PricesDE/primary-button";
 import PricingCard from "@/components/PricesDE/pricing-card";
 import styles from "./index.module.css";
 import Layout from '@/components/Layout';
+import Blog from '@/components/BlogUSA/indexusa';
 
 const PricesDE = () => {
   return (

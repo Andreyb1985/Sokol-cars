@@ -4,6 +4,7 @@
 }
 .itemText {
   color: aliceblue !important;
+  white-space: pre-wrap;
   
 }
 .itemBase {

@@ -16,8 +16,7 @@ const Footer = () => {
                         <FooterLogo />
                         <ul className={s.socialMedia}>
                             <li><a href='/'><Facebook/></a></li>
-                            <li><a href='/'><Youtube/></a></li>
-                            <li><a href='/'><Instagram/></a></li>
+                            <li><a href='https://www.instagram.com/sokolcar_ua/'><Instagram/></a></li>
                         </ul>
                     </div>
                     <div className={s.secoundContainer}>
@@ -25,7 +24,7 @@ const Footer = () => {
                         <FooterContacts />
                         <address className={s.adress}>
                             <p className={s.adressTitle}>Адрес центрального офиса:</p>
-                            <p className={s.adressDesc}>02781, г. Киев, ул. Марии Расковой, 1 оф. 224</p>
+                            <p className={s.adressDesc}>45141, Essen,Große Leining 22</p>
                         </address>
                     </div>
                 </div>
@@ -37,7 +36,7 @@ const Footer = () => {
                         <li><a>Политика конфиденциальности</a></li>
                         <li><a>Карта сайта</a></li>
                     </ul>
-                    <p>Copyrirght 2021 &copy; Sokol Car</p>
+                    <p>Copyrirght 2024 &copy; Sokol Car</p>
                     <p className={s.rights}>Все материалы, содержащиеся на сайте, являются интеллектуальной собственностью владельца сайта. Любое полное или частичное копирование материалов сайта
     допускается с обязательным указанием ссылки на этот сайт.  Все права защищены.</p>
                 </div>

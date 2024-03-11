@@ -1,0 +1,15 @@
+.item {
+  background-color: rgb(15, 72, 193) !important;
+  
+}
+.itemText {
+  color: aliceblue !important;
+  white-space: pre-wrap;
+  
+}
+.itemBase {
+  background-color: rgb(15, 72, 193) !important;
+}
+.itemIndicator {
+  color: aliceblue !important;
+}
