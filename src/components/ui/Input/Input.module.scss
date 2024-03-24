@@ -1,0 +1,53 @@
+@import "src/styles/colors";
+@import "src/styles/breakpoints";
+
+.inputContainer {
+  position: relative;
+}
+
+.input {
+  border-radius: 3px;
+  width: 100%;
+  padding: 10px 10px 10px 40px;
+  color: $black;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: -0.78px;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid $black;
+
+
+  @include mobile {
+    font-size: 14px;
+    padding: 10px 10px 10px 15px;
+  }
+
+  &:-webkit-autofill {
+    -webkit-text-fill-color: $gray50 !important;
+  }
+
+  &:-webkit-autofill,
+  &:-webkit-autofill:hover,
+  &:-webkit-autofill:focus,
+  &:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px $gray900 inset !important;
+    border: 1px solid $gray450 !important;
+  }
+
+  &::placeholder {
+    color: $gray450;
+  }
+}
+
+.errorText {
+  color: $orange500;
+  font-size: 14px;
+}
+
+.inputError {
+  border: 1px solid $orange500;
+}
+
+

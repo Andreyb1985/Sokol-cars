@@ -1,0 +1,102 @@
+@import "src/styles/colors";
+@import "src/styles/breakpoints";
+
+$primary-light: #your-primary-light-color;
+$gray-300: #your-gray-300-color;
+$gray-350: #your-gray-350-color;
+$background-paper: #your-background-paper-color;
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+
+}
+
+.inputClass {
+  &.formControl {
+    border-radius: 3px;
+    width: 100%;
+    padding: 13px 13px 13px 60px;
+    color: $black;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: -0.78px;
+    outline: none;
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid $black;
+
+    @include mobile {
+      font-size: 14px;
+      padding: 10px 10px 10px 65px;
+      height: 38px;
+    }
+
+    &::placeholder {
+      color: $gray450;
+    }
+  }
+
+  &.inputError {
+    border: 1px solid $orange500;
+  }
+}
+
+.containerClass {
+  color: $gray50;
+
+  & :global(.flag-dropdown) {
+    border-radius: 5px;
+    border: 1px solid $gray400;
+    background-color: transparent;
+  }
+
+  & :global(li) {
+    &:hover {
+      background-color: transparent !important;
+    }
+  }
+
+  & :global(.country-list) {
+    background-color: $gray900;
+  }
+
+  & :global(.open) {
+    background-color: transparent !important;
+  }
+
+  & :global([aria-selected]) {
+    background-color: $gray800 !important;
+  }
+
+  & :global(.selected-flag) {
+    padding: 0 0 0 11px;
+    width: 52px;
+    background-color: transparent;
+
+    &:hover {
+      background-color: transparent;
+    }
+  }
+
+  & :global(.selected-flag.open) {
+    background-color: transparent;
+  }
+}
+
+
+.containerClass.errorDropdown {
+  color: $gray50;
+
+  & :global(.flag-dropdown) {
+    border: 1px solid $orange500;
+  }
+}
+
+.error {
+  font-size: 14px;
+  color: $orange500;
+}

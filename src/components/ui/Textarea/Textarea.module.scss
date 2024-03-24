@@ -1,0 +1,40 @@
+@import "src/styles/colors";
+@import "src/styles/breakpoints";
+
+.textareaContainer {
+  position: relative;
+}
+
+.textarea {
+  border-radius: 3px;
+  width: 100%;
+  padding: 13px 13px 13px 40px;
+  color: $black;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: -0.78px;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid $black;
+  height: 200px;
+  resize: none;
+
+  @include mobile {
+    font-size: 14px;
+    padding: 10px 10px 10px 15px;
+    height: 138px;
+  }
+
+  &::placeholder {
+    color: $gray400;
+  }
+}
+
+.textareaError {
+  border: 1px solid $orange500;
+}
+
+.errorText {
+  color: $orange500;
+}

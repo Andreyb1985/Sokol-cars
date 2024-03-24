@@ -1,0 +1,51 @@
+@import "src/styles/colors";
+@import "src/styles/breakpoints";
+
+.button {
+  border: none;
+  border-radius: 3px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  transition: 0.3s;
+  background-color: $gray50;
+  color: $gray900;
+
+  &:hover {
+    background-color: $blue500;
+    color: $gray50;
+  }
+
+  &:disabled {
+    background-color: $gray300;
+    color: $gray900;
+    cursor: initial;
+  }
+
+  @include mobile {
+    font-size: 16px;
+
+    &:hover {
+      background-color: $gray50;
+      color: $gray900;
+    }
+  }
+}
+
+.primary {
+  padding: 30px 30px;
+
+  @include mobile {
+    padding: 14px 30px;
+  }
+}
+
+.secondary {
+  padding: 10px 30px;
+}
+
+.block {
+  width: 100%;
+}
