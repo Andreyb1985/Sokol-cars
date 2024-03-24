@@ -38,7 +38,7 @@ const PrimaryButton = ({
           src="/line-roundedsearch.svg"
         />
         <b className={styles.buttonText} style={buttonTextStyle}>
-        <a href="https://api.whatsapp.com/send?phone=380504111721">Связаться</a>
+        <a href="https://wa.me/380504111721?text=Добрый%20день.%20Меня%20интересует%20машина%20в%20Германии.">Связаться</a>
         </b>
         <img
           className={styles.lineRoundedarrowRight}
