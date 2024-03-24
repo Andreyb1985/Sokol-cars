@@ -11,7 +11,6 @@ $background-paper: #your-background-paper-color;
   flex-direction: column;
   flex: 1;
   position: relative;
-
 }
 
 .inputClass {
@@ -26,13 +25,13 @@ $background-paper: #your-background-paper-color;
     letter-spacing: -0.78px;
     outline: none;
     height: 60px;
-    background-color: transparent;
+    background-color: #c4c7f1;
     border: 1px solid $black;
 
     @include mobile {
-      font-size: 14px;
+      // font-size: 14px;
       padding: 10px 10px 10px 65px;
-      height: 38px;
+      // height: 38px;
     }
 
     &::placeholder {
@@ -50,7 +49,7 @@ $background-paper: #your-background-paper-color;
 
   & :global(.flag-dropdown) {
     border-radius: 5px;
-    border: 1px solid $gray400;
+    border: 1px solid transparent;
     background-color: transparent;
   }
 
@@ -61,15 +60,16 @@ $background-paper: #your-background-paper-color;
   }
 
   & :global(.country-list) {
-    background-color: $gray900;
+    background-color: $gray200;
+    color: black;
   }
 
   & :global(.open) {
-    background-color: transparent !important;
+    // background-color: transparent !important;
   }
 
   & :global([aria-selected]) {
-    background-color: $gray800 !important;
+    background-color: $gray450 !important;
   }
 
   & :global(.selected-flag) {
@@ -81,9 +81,11 @@ $background-paper: #your-background-paper-color;
       background-color: transparent;
     }
   }
-
+  & :global(.flag-dropdown.open) {
+  background-color: transparent!important;
+  }
   & :global(.selected-flag.open) {
-    background-color: transparent;
+    background-color: transparent!important;
   }
 }
 
@@ -92,11 +94,21 @@ $background-paper: #your-background-paper-color;
   color: $gray50;
 
   & :global(.flag-dropdown) {
-    border: 1px solid $orange500;
+    border: 1px solid transparent;
   }
 }
 
 .error {
   font-size: 14px;
   color: $orange500;
+}
+
+@media screen and (max-width: 1069px) {
+  .inputClass {
+    &.formControl {
+      font-size: 16px;
+      line-height: 130%;
+      height: 47.9px;
+    }
+  }
 }

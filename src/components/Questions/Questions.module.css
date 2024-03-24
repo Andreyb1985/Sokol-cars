@@ -2,22 +2,38 @@
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
-  padding: 30px 10px 30px 10px;
+  padding: 30px 20px 30px 20px;
 }
 
 .questionsForm {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  padding: 20px 5px 20px 5px;
-
+  justify-content: space-between;
+  padding: 0 0 20px 0;
   background-color: #414ce6;
 }
 
+.content {
+  text-align: center;
+  background-color: #414ce6;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputWrapper {
+  flex: 1;
+  max-width: 355px;
+  padding: 0 20px;
+  margin-bottom: 15px;
+}
+
 .questionsTitle {
-  margin-top: 0;
-  margin-bottom: 20px;
-  margin-top: 0;
+  margin-top: 15px;
 
   font-size: 20px;
   font-weight: 800;
@@ -25,8 +41,12 @@
 }
 
 .questionsDesc {
+  padding-left: 15px;
+  padding-right: 15px;
   margin-top: 0;
   margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 
   font-size: 12px;
@@ -36,18 +56,16 @@
 
 .inputsContainer {
   text-align: center;
+  background-color: #f55300;
 }
 
 .name,
 .tel,
 .email {
-  border: 1px solid #3741c4;
-  margin-bottom: 15px;
-  padding: 5px;
-  width: 250px;
-
+  padding: 13px;
   background-color: #c4c7f1;
-  font-size: 13px;
+  font-size: 16px;
+  line-height: 130%;
 }
 
 .btn {
@@ -63,6 +81,7 @@
   font-weight: 600;
   text-transform: uppercase;
   color: #fff;
+  margin-bottom: 20px;
 }
 
 .arr {
@@ -74,28 +93,29 @@
     max-width: 768px;
   }
 
-  .name {
-    margin-right: 20px;
+  .inputWrapper {
+    min-width: auto;
+  }
+}
+
+@media screen and (max-width: 1441px) {
+  .questionsForm {
+    width: calc(100% - 40px);
+    flex-direction: column!important;
+  }
+
+  .inputWrapper {
+    max-width: inherit;
+    width: auto;
+    padding: 0;
   }
 }
 
 @media screen and (min-width: 1441px) {
   .container {
-    position: relative;
-
     display: flex;
     justify-content: center;
     max-width: 1600px;
-    /*height: 300px;*/
-  }
-
-  .questionsForm {
-    position: absolute;
-    top: -70px;
-
-    width: 1280px;
-    flex-direction: column;
-    align-items: center;
   }
 
   .questionsTitle {
@@ -111,15 +131,8 @@
   .name,
   .tel,
   .email {
-    width: 325px;
-    padding: 15px 20px 15px 20px;
-
-    font-size: 17px;
-  }
-
-  .name,
-  .tel {
-    margin-right: 30px;
+    padding: 13px 20px 13px 20px;
+    font-size: 26px;
   }
 
   .inputsContainer {

@@ -47,6 +47,7 @@
 
 .storiesItem {
   position: relative;
+  width: 355px;
 }
 
 .storiesItem:not(:last-child) {
@@ -76,6 +77,17 @@
   left: -20px;
 
   transform: scale(0.5);
+}
+@media screen and (max-width: 1069px) {
+  .image {
+    object-fit: contain;
+    width: 100%;
+    height: 360px;
+  }
+
+  .logo {
+    top: -10px;
+  }
 }
 
 @media screen and (min-width: 1069px) {
