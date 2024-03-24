@@ -38,7 +38,7 @@ const PrimaryButton = ({
           src="/line-roundedsearch.svg"
         />
         <b className={styles.buttonText} style={buttonTextStyle}>
-          Заказать
+        <a href="https://api.whatsapp.com/send?phone=380504111721">Связаться</a>
         </b>
         <img
           className={styles.lineRoundedarrowRight}
