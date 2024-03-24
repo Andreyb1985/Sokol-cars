@@ -16,7 +16,7 @@ const Footer = () => {
                         <FooterLogo />
                         <ul className={s.socialMedia}>
                             <li><a href='/'><Facebook/></a></li>
-                            <li><a href='https://www.instagram.com/sokolcar_ua/'><Instagram/></a></li>
+                            <li><a href='https://www.instagram.com/sokol.autos/'><Instagram/></a></li>
                         </ul>
                     </div>
                     <div className={s.secoundContainer}>
