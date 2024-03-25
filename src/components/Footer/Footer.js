@@ -15,7 +15,7 @@ const Footer = () => {
                     <div className={s.firstContainer}>
                         <FooterLogo />
                         <ul className={s.socialMedia}>
-                            <li><a href='/'><Facebook/></a></li>
+                            <li><a href='https://www.facebook.com/sokolautos'><Facebook/></a></li>
                             <li><a href='https://www.instagram.com/sokol.autos/'><Instagram/></a></li>
                         </ul>
                     </div>
