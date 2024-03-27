@@ -58,14 +58,16 @@ const CustomDrawer = ({ navigationConfig = [] }) => {
                         </List>
                         <Divider />
                         <List>
-                            {['+380504111721','+491754068143', 'обратный звонок'].map((text, index) => (
-                                <ListItem button key={text}>
-                                    {/* <ListItemIcon>
-                                        {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-                                    </ListItemIcon> */}
-                                    <ListItemText primary={text} />
-                                </ListItem>
-                            ))}
+                        <ListItem button>
+                        <Link href='https://api.whatsapp.com/send?phone=380504111721'>+380504111721</Link>
+                        </ListItem>
+                        <ListItem button>
+                        <Link href='tel:+491754068143'>+491754068143</Link>
+                        </ListItem>
+                        <ListItem button>
+                                    <ListItemText primary='обратный звонок' />
+                        </ListItem>
+                           
                         </List>
                     </Drawer>
                 </div>

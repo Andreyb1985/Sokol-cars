@@ -2,6 +2,8 @@ import MessagesBox from "@/components/Aboutus/messages-box";
 import styles from "./index.module.css";
 import Layout from '@/components/Layout';
 import './global.css';
+import QuestionAUS from '@/components/QuestionAUS';
+
 
 const Page = () => {
   return (
@@ -9,7 +11,6 @@ const Page = () => {
     <Layout>
     <div className={styles.div}>
       <main className={styles.containerParent}>
-        <img className={styles.containerIcon} alt="" src="/container.svg" />
         <div className={styles.frameWrapper}>
           <div className={styles.aboutUsTextParent}>
             <div className={styles.aboutUsText}>
@@ -38,7 +39,7 @@ const Page = () => {
             </div>
           </div>
         </div>
-        <MessagesBox />
+        <QuestionAUS/>
       </main>
     </div>
     </Layout>

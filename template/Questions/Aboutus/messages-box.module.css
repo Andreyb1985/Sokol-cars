@@ -1,0 +1,272 @@
+.container {
+  width: 624px;
+  height: 845px;
+  background-color: var(--white-white-20);
+  display: none;
+}
+.b,
+.container,
+.textBox1 {
+  position: relative;
+  max-width: 100%;
+}
+.b {
+  width: 374.6px;
+  line-height: 22px;
+  display: inline-block;
+  z-index: 1;
+}
+.textBox1 {
+  height: 56px;
+  width: 472px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray);
+  border: 1px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  display: none;
+}
+.input {
+  width: 252.9px;
+  border: 0;
+  outline: 0;
+  font-family: var(--headings-bold-16);
+  font-size: var(--headings-bold-16-size);
+  background-color: transparent;
+  height: 22px;
+  position: relative;
+  line-height: 22px;
+  color: var(--color-darkgray);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.nameTextbox,
+.textBox {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.textBox {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray);
+  border: 1px solid var(--color-whitesmoke-100);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-mid) var(--padding-mini);
+  z-index: 1;
+}
+.nameTextbox {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-3xs);
+  gap: var(--gap-lg);
+  flex-shrink: 0;
+}
+.b1,
+.textBox3 {
+  position: relative;
+}
+.b1 {
+  line-height: 22px;
+  z-index: 1;
+}
+.textBox3 {
+  height: 56px;
+  width: 472px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray);
+  border: 1px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.input1 {
+  width: 252.9px;
+  border: 0;
+  outline: 0;
+  font-family: var(--headings-bold-16);
+  font-size: var(--headings-bold-16-size);
+  background-color: transparent;
+  height: 22px;
+  position: relative;
+  line-height: 22px;
+  color: var(--color-darkgray);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.textBox2 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray);
+  border: 1px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-mini);
+  max-width: 100%;
+  z-index: 1;
+}
+.eMail,
+.textBox5 {
+  position: relative;
+  max-width: 100%;
+}
+.eMail {
+  width: 374.6px;
+  line-height: 22px;
+  display: inline-block;
+  z-index: 1;
+}
+.textBox5 {
+  height: 56px;
+  width: 472px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray);
+  border: 1px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  display: none;
+}
+.input2 {
+  width: 252.9px;
+  border: 0;
+  outline: 0;
+  font-family: var(--headings-bold-16);
+  font-size: var(--headings-bold-16-size);
+  background-color: transparent;
+  height: 22px;
+  position: relative;
+  line-height: 22px;
+  color: var(--color-darkgray);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.textBox4 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray);
+  border: 1px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-mini);
+  max-width: 100%;
+  z-index: 1;
+}
+.b2 {
+  height: 16px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.inputsContainerFrame,
+.messageSendText,
+.textBox6 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textBox6 {
+  border: 1px solid var(--color-whitesmoke-100);
+  background-color: var(--color-gray);
+  height: 163px;
+  width: auto;
+  outline: 0;
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-lg) var(--padding-mini);
+  font-family: var(--headings-bold-16);
+  font-size: var(--headings-bold-16-size);
+  color: var(--color-darkgray);
+  z-index: 1;
+}
+.inputsContainerFrame,
+.messageSendText {
+  flex-direction: column;
+  gap: var(--gap-smi);
+}
+.inputsContainerFrame {
+  gap: var(--gap-mid);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.div {
+  position: relative;
+  font-size: var(--paragraph-medium-14-size);
+  line-height: 150%;
+  font-weight: 500;
+  font-family: var(--paragraph-medium-14);
+  color: var(--white-white-20);
+  text-align: left;
+}
+.largenormaljustifyactive {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-2xl) var(--padding-base)
+    var(--padding-5xl);
+  background-color: var(--blue-blue-70);
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.largenormaljustifyactive:hover {
+  background-color: var(--color-cornflowerblue);
+}
+.messagesBox {
+  flex: 1;
+  background-color: var(--white-white-20);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-85xl) var(--padding-69xl) var(--padding-85xl)
+    var(--padding-45xl);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  min-width: 406px;
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--headings-bold-16-size);
+  color: var(--text-title-text);
+  font-family: var(--headings-bold-16);
+}
+@media screen and (max-width: 1050px) {
+  .messagesBox {
+    padding-top: var(--padding-49xl);
+    padding-bottom: var(--padding-49xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .messagesBox {
+    gap: var(--gap-11xl);
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-25xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .messagesBox {
+    padding-top: var(--padding-25xl);
+    padding-right: var(--padding-xl);
+    padding-bottom: var(--padding-25xl);
+    box-sizing: border-box;
+  }
+}
