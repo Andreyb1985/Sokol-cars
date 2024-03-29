@@ -10,18 +10,18 @@
   
 }
 .create-line {
-  width: 500px;
+  width: 450px;
   border-top: 6px solid #414ce6;
-  padding: 0px 0px 0px 100px;
+  padding-left: 200px;
 }
 
 .text{
   font-size: 26px;
-  padding: 20px 20px 10px 120px;
+  padding: 20px 20px 10px 160px;
 }
 
 .akardeon{
-  padding: 20px 100px 70px 350px;
+  padding: 20px 20px 70px 350px;
  
 
   
@@ -29,7 +29,7 @@
 
 @media screen and (max-width: 1000px) {
   .akardeon{
-    padding: 20px 50px 70px 50px;
+    padding: 20px 10px 70px 10px;
     display: flex;
   }
   .text{
