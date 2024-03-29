@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.container {
+  padding: 50px 20px 50px 20px;
+  /*display: inline-block;*/
+  
+  
+}
+.create-line {
+  width: 500px;
+  border-top: 6px solid #414ce6;
+  padding: 0px 0px 0px 100px;
+}
+
+.text{
+  font-size: 26px;
+  padding: 20px 20px 10px 120px;
+}
+
+.akardeon{
+  padding: 20px 100px 70px 350px;
+ 
+
+  
+}
+
+@media screen and (max-width: 1000px) {
+  .akardeon{
+    padding: 20px 50px 70px 50px;
+    display: flex;
+  }
+  .text{
+    font-size: 26px;
+    padding: 20px 20px 10px 10px;
+}
+.container {
+  padding: 150px 20px 0px 0px;  
+}
+}

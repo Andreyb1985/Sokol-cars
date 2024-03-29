@@ -52,7 +52,7 @@ const Questions = () => {
 											value={values.name}
 											onChange={e => setFieldValue('name', e.target.value)}
 											name='name'
-											placeholder='Имя'
+											placeholder='Ваше Имя'
 											error={errors.name}
 											maxLength={255}
 											className={s.name}
@@ -87,7 +87,7 @@ const Questions = () => {
 								value={values.message}
 								onChange={e => setFieldValue('message', e.target.value)}
 								name="message"
-								placeholder='message'
+								placeholder='Ваше сообщение'
 								maxLength={500}
 								error={errors.message}
 								  />

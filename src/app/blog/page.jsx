@@ -8,9 +8,19 @@ import "./styles.css";
 const BlogLayout = () => {
   return (
     <Layout>
-      <div className="w-screen h-screen p-8 flex items-start justify-center">
-        <BlogUSA/>
-        <BlogDE/>
+      <div>
+        <div className="container">
+        <div class="create-line"></div>
+          <div class="text">Вопросы по США</div>
+          <div class="akardeon">
+            <BlogUSA/>
+          </div>
+          <div class="create-line"></div>
+          <div class="text">Вопросы по Германии</div>
+          <div class="akardeon">
+            <BlogDE/>
+          </div>
+        </div>
       </div>
     </Layout>
   );
