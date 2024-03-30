@@ -5,19 +5,19 @@
 
 .container {
   padding: 50px 20px 50px 20px;
-  /*display: inline-block;*/
+  margin: auto;
   
   
 }
 .create-line {
-  width: 450px;
   border-top: 6px solid #414ce6;
-  padding-left: 200px;
+  margin-left: 100px;
+  width: 300px;
 }
 
 .text{
   font-size: 26px;
-  padding: 20px 20px 10px 160px;
+  padding: 20px 20px 10px 100px;
 }
 
 .akardeon{
@@ -38,5 +38,8 @@
 }
 .container {
   padding: 150px 20px 0px 0px;  
+}
+.create-line {
+  margin-left: 10px;
 }
 }
