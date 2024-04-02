@@ -1,5 +1,5 @@
 import { Inter } from "next/font/google";
-import { GoogleAnalytics } from '@next/third-parties/google'
+//import { GoogleAnalytics } from '@next/third-parties/google'
 
 import '@/styles/global.css';
 
@@ -21,7 +21,7 @@ export default function RootLayout({ children, params: {locale} }) {
   return (
     <html lang={locale}>
       <body className={inter.className}>{children}
-      <GoogleAnalytics gaId="GTM-KV85DKRL" />
+      {/*<GoogleAnalytics gaId="G-ZTTTTK57SM" />*/}
      {/* <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KV85DKRL"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
