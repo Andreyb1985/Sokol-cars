@@ -16,7 +16,7 @@ export default function Home() {
           <PurchaseProcess />
           <PurchaseProcessDe />
           <WhyWe />
-          <OurServices />
+         {/* <OurServices />*/}
           <Stories />
           <Questions/>
         </Layout>

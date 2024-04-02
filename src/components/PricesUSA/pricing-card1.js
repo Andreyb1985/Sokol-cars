@@ -1,8 +1,10 @@
 import Px from "./px";
 import PrimaryButton from "./primary-button";
 import styles from "./pricing-card1.module.css";
+import { useTranslations } from 'next-intl';
 
 const PricingCard1 = () => {
+  const t = useTranslations('PricesUSA');
   return (
     <div className={styles.pricingCard}>
       <div className={styles.spacers} />
@@ -23,12 +25,12 @@ const PricingCard1 = () => {
             </div>
             <div className={styles.subtitleFrame}>
               <div className={styles.priceText}>
-                <div className={styles.subtitle}>Для опытных</div>
-                <b className={styles.price}>Базовый</b>
+                <div className={styles.subtitle}>{t('PricesUSA-for_experts')}</div>
+                <b className={styles.price}>{t('PricesUSA-basis')}</b>
               </div>
             </div>
           </div>
-          <div className={styles.paragraph}>Покупка автомобиля по вашему запросу</div>
+          <div className={styles.paragraph}>{t('PricesUSA-pokupkazapros')}</div>
         </div>
       </div>
       <div className={styles.monthly}>
@@ -41,13 +43,13 @@ const PricingCard1 = () => {
         <div className={styles.framePrice}>
           <b className={styles.price1}>$200</b>
           <div className={styles.subtitleFrame1}>
-            <b className={styles.squarePaperPlane1}>Что включено</b>
+            <b className={styles.squarePaperPlane1}>{t('PricesUSA-chto_vklucheno')}</b>
             <Px
               filledIconsCheckCName="radioGroup-2"
-              text200="Фото из порта в США и Клайпеды"
-              text2001="Сопровождение клиента от покупки до доставки в Украину"
-              text2002="Проверка авто Экспертом перед покупкой"
-              pricetext="Страховка авто "
+              text200={t('PricesUSA-fotoport')}
+              text2001={t('PricesUSA-soprovogdenie')}
+              text2002={t('PricesUSA-checkcar')}
+              pricetext={t('PricesUSA-insurance')}
             />
           </div>
           <PrimaryButton />

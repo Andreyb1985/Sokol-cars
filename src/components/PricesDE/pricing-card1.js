@@ -1,8 +1,10 @@
 import Px from "./px";
 import PrimaryButton from "./primary-button";
 import styles from "./pricing-card1.module.css";
+import { useTranslations } from 'next-intl';
 
 const PricingCard1 = () => {
+  const t = useTranslations('PricesDE');
   return (
     <div className={styles.pricingCard}>
       <div className={styles.spacers} />
@@ -23,13 +25,13 @@ const PricingCard1 = () => {
             </div>
             <div className={styles.subtitleFrame}>
               <div className={styles.priceText}>
-                <div className={styles.subtitle}>Для опытных</div>
-                <b className={styles.price}>Базовый</b>
+                <div className={styles.subtitle}>{t('PricesDE-for_opt')}</div>
+                <b className={styles.price}>{t('PricesDE-basis')}</b>
               </div>
             </div>
           </div>
-          <div className={styles.paragraph}>Осмотр автомобиля по вашему запросу.</div>
-          <div className={styles.paragraph}>Земля Nordrhein-Westfalen</div>
+          <div className={styles.paragraph}>{t('PricesDE-osmotot_zapros')}</div>
+          <div className={styles.paragraph}>{t('PricesDE-nrw')}</div>
         </div>
       </div>
       <div className={styles.monthly}>
@@ -42,13 +44,13 @@ const PricingCard1 = () => {
         <div className={styles.framePrice}>
           <b className={styles.price1}>80 Euro</b>
           <div className={styles.subtitleFrame1}>
-            <b className={styles.squarePaperPlane1}>Что включено</b>
+            <b className={styles.squarePaperPlane1}>{t('PricesDE-chto_vklucheno')}</b>
             <Px
               filledIconsCheckCName="radioGroup-2"
-              text200="Осмотр автомобиля(интерьер и экстерьер)"
-              text2001="Компьютерная диагностика автомобиля"
-              text2002="Проверка ЛКП прибором"
-              pricetext="Фото и видео отчет. Тест драйв"
+              text200={t('PricesDE-osmotr')}
+              text2001={t('PricesDE-kompdiagnoz')}
+              text2002={t('PricesDE-checkfarb')}
+              pricetext={t('PricesDE-fotovideo')}
             />
           </div>
           <PrimaryButton />

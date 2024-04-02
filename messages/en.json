@@ -4,10 +4,108 @@
   },
   "Blog": {
     "title-usa": "Questions about the USA",
-    "title-de": "Questions about Germany"
+    "title-de": "Questions about Germany",
+    "defaultContent": "1.Цена покупки автомобиля ниже, чем в Украине на 15-20%\n2.Прозрачная история авто, данные из"
   },
-  "LocaleSwitcher": {
+    "LocaleSwitcher": {
     "label": "Change language RU",
-    "locale": "{locale, select, ru {\uD83C\uDDF7\uD83C\uDDFA TEXT} en {🇺🇸 TEXT2} other {}}"
+    "locale": "{locale, select, ru {\uD83C\uDDF7\uD83C\uDDFA Русский} en {🇺🇸 English} other { 🇩🇪 Deutsch}}"
+  },
+  "Hero": {
+    "Hero-1": "Dream Car from the USA and Germany",
+    "Hero-2": "Auto from USA.",
+    "Hero-3": "Affordable price and wide selection.",
+    "Hero-4": "Auto from Germany.",
+    "Hero-5": "Fast delivery and German quality."
+  },
+  "PurchaseProcess": {
+    "PurchaseProcess-1": "The process of buying an auto in the U.S.",
+    "PurchaseProcess-2": "Purchase",
+    "PurchaseProcess-auto": "auto",
+    "PurchaseProcess-4": "Vehicle selection at auction and expert inspection",
+    "PurchaseProcess-5": "Shipping by sea",
+    "PurchaseProcess-6": "Calculating the optimal cost of car delivery",
+    "PurchaseProcess-7": "Car Customs Clearance",
+    "PurchaseProcess-8": "Calculation of customs payments and customs declaration processing",
+    "PurchaseProcess-9": "Repair",
+    "PurchaseProcess-10": "Comprehensive repair at our partner's service station",
+    "PurchaseProcess-11": "Certification",
+    "PurchaseProcess-12": "Service is provided by our partner on request",
+    "PurchaseProcess-13": "Vehicle registration.",
+    "PurchaseProcess-14": "Final stage of registration of your car"
+  },
+  "PurchaseProcessDe": {
+    "PurchaseProcessDe-1": "The process of buying an auto in the U.S.",
+    "PurchaseProcessDe-2": "Purchase",
+    "PurchaseProcessDe-auto": "auto",
+    "PurchaseProcessDe-4": "Vehicle selection and expert inspection",
+    "PurchaseProcessDe-5": "Shipping by sea",
+    "PurchaseProcessDe-6": "Calculating the optimal cost of car delivery",
+    "PurchaseProcessDe-7": "Car Customs Clearance",
+    "PurchaseProcessDe-8": "Calculation of customs payments and customs declaration processing",
+    "PurchaseProcessDe-11": "Certification",
+    "PurchaseProcessDe-12": "Service is provided by our partner on request",
+    "PurchaseProcessDe-13": "Vehicle registration.",
+    "PurchaseProcessDe-14": "Final stage of registration of your car"
+  },
+  "WhyWe": {
+    "WhyWe-1": "Why you should choose us",
+    "WhyWe-2": "About us.",
+    "WhyWe-3": "Selection and Inspection",
+    "WhyWe-4": "Checking in 10 steps compiled over years of experience and based on real customer cases (Checklist)",
+    "WhyWe-5": "Auto Insurance",
+    "WhyWe-6": "Car insurance and transportation by sea includes risks such as: catastrophes, fire, shipwreck, etc.",
+    "WhyWe-7": "24/7 support",
+    "WhyWe-8": "Our managers conveniently provide comprehensive advice on delivery at a convenient time"
+  },
+  "navigation": {
+    "lackystory": "Lackystory",
+    "servicesUsa": "Auto from Usa",
+    "servicesDe": "Auto from Germany",
+    "blog": "Frequent questions",
+    "aboutus": "Contacts"
+  },
+  "PricesDE": {
+    "PricesDE-busines": "For the business", 
+    "PricesDE-opt": "Wholesale",
+    "PricesDE-predlozenie_opt": "Offer to wholesale customers.",
+    "PricesDE-10osmotrov": "Order from 10 inspections.",
+    "PricesDE-nrw": "Land Nordrhein-Westfalen",
+    "PricesDE-chto_vklucheno": "What's included",
+    "PricesDE-osmotr": "Vehicle Inspection",
+    "PricesDE-kompdiagnoz": "Computer diagnostics",
+    "PricesDE-checkfarb": "Check paintwork with a device",
+    "PricesDE-fotovideo": "Photo and video report. Test drive",
+    "PricesDE-for_opt": "For Expert",
+    "PricesDE-basis": "Basic",
+    "PricesDE-osmotot_zapros": "Vehicle inspection at your request.",
+    "PricesDE-allInclusive": "All included",
+    "PricesDE-top": "TOP",
+    "PricesDE-optimal": "Optimal",
+    "PricesDE-podborAuto": "Car search and selection in Germany.. NRW,DE"
+  },
+  "PricesUSA": {
+    "PricesUSA-busines": "For the business", 
+    "PricesUSA-opt": "Wholesale",
+    "PricesUSA-fordealers": "Offer for dealers",
+    "PricesUSA-foropt": "and wholesale customers.",
+    "PricesUSA-chto_vklucheno": "What's included",
+    "PricesUSA-buycar": "Buying car at Auction",
+    "PricesUSA-insurance": "Car Insurance.",
+    "PricesUSA-checkcar": "Check auto before buying by Expert",
+    "PricesUSA-fotoport": "Photos from the port in the USA and Klaipeda",
+    "PricesUSA-for_experts": "For Expert",
+    "PricesUSA-basis": "Basic",
+    "PricesUSA-individualsearch": "Customized car search and selection.",
+    "PricesUSA-allInclusive": "All included",
+    "PricesUSA-top": "TOP",
+    "PricesUSA-optimal": "Optimal",
+    "PricesUSA-podborAuto": "Car Matching",
+    "PricesUSA-checkhistory": "US Auto History Check.CarFax",
+    "PricesUSA-svaz": "Communication with the client on a no-hassle basis",
+    "PricesUSA-upravlenie": "Manage the entire process",
+    "PricesUSA-pokupkazapros": "Buying a car according to your request",
+    "PricesUSA-soprovogdenie": "Customer support from purchase to delivery"
+
   }
 }

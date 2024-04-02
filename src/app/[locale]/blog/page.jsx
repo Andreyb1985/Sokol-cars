@@ -5,6 +5,7 @@ import BlogDE from '@/components/BlogDE/indexde';
 import "./styles.css";
 import { useTranslations } from 'next-intl';
 // import styles from "./index.module.css";
+//import { useTranslations } from 'next-intl';
 
 const BlogLayout = () => {
   const t = useTranslations('Blog');

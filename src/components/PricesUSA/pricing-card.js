@@ -1,7 +1,9 @@
 import PrimaryButton from "./primary-button";
 import styles from "./pricing-card.module.css";
+import { useTranslations } from 'next-intl';
 
 const PricingCard = () => {
+  const t = useTranslations('PricesUSA');
   return (
     <div className={styles.pricingCard}>
       <div className={styles.spacers} />
@@ -23,14 +25,14 @@ const PricingCard = () => {
             </div>
             <div className={styles.frameWrapper}>
               <div className={styles.subtitleParent}>
-                <div className={styles.subtitle}>Для бизнеса</div>
-                <b className={styles.price}>Оптовый</b>
+                <div className={styles.subtitle}>{t('PricesUSA-busines')}</div>
+                <b className={styles.price}>{t('PricesUSA-opt')}</b>
               </div>
             </div>
           </div>
           <div className={styles.paragraph}>
-            <p className={styles.p}>Предложение для диллеров</p>
-            <p className={styles.p1}>и оптовых клиентов.</p>
+            <p className={styles.p}>{t('PricesUSA-fordealers')}</p>
+            <p className={styles.p1}>{t('PricesUSA-foropt')}</p>
           </div>
         </div>
       </div>
@@ -42,7 +44,7 @@ const PricingCard = () => {
           <div className={styles.priceParent}>
             <b className={styles.price1}>$100</b>
             <div className={styles.frameprice}>
-              <b className={styles.text200}>Что включено</b>
+              <b className={styles.text200}>{t('PricesUSA-chto_vklucheno')}</b>
               <div className={styles.px}>
                 <div className={styles.iconsListItem}>
                   <div className={styles.listItem200}>
@@ -51,7 +53,7 @@ const PricingCard = () => {
                       type="radio" checked
                     />
                     <div className={styles.text2001}>
-                      Покупка Авто на аукционе
+                    {t('PricesUSA-buycar')}
                     </div>
                   </div>
                 </div>
@@ -61,7 +63,7 @@ const PricingCard = () => {
                       className={styles.filledIconscheckCircle1}
                       type="radio" checked
                     />
-                    <div className={styles.text2002}>Страховка авто</div>
+                    <div className={styles.text2002}>{t('PricesUSA-insurance')}</div>
                   </div>
                 </div>
                 <div className={styles.framelistitem}>
@@ -72,7 +74,7 @@ const PricingCard = () => {
                         type="radio" checked
                       />
                       <div className={styles.text2003}>
-                        Проверка авто перед покупкой
+                      {t('PricesUSA-checkcar')}
                       </div>
                     </div>
                   </div>
@@ -85,7 +87,7 @@ const PricingCard = () => {
                         type="radio" checked
                       />
                       <div className={styles.text2004}>
-                        Фото из порта в США и Клайпеды
+                      {t('PricesUSA-fotoport')}
                       </div>
                     </div>
                   </div>

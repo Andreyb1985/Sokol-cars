@@ -1,7 +1,9 @@
 import PrimaryButton from "./primary-button";
 import styles from "./pricing-card.module.css";
+import { useTranslations } from 'next-intl';
 
 const PricingCard = () => {
+  const t = useTranslations('PricesDE');
   return (
     <div className={styles.pricingCard}>
       <div className={styles.spacers} />
@@ -23,17 +25,17 @@ const PricingCard = () => {
             </div>
             <div className={styles.frameWrapper}>
               <div className={styles.subtitleParent}>
-                <div className={styles.subtitle}>Для бизнеса</div>
-                <b className={styles.price}>Оптовый</b>
+                <div className={styles.subtitle}>{t('PricesDE-busines')}</div>
+                <b className={styles.price}>{t('PricesDE-opt')}</b>
               </div>
             </div>
           </div>
           <div className={styles.paragraph}>
-            <p className={styles.p}>Предложение оптовых клиентов.</p>
-            <p className={styles.p1}>Заказ от 10 осмотров.</p>
+            <p className={styles.p}>{t('PricesDE-predlozenie_opt')}</p>
+            <p className={styles.p1}>{t('PricesDE-10osmotrov')}</p>
           </div>
           <div className={styles.paragraph}>
-            <p className={styles.p}>Земля Nordrhein-Westfalen</p>
+            <p className={styles.p}>{t('PricesDE-nrw')}</p>
           </div>
         </div>
       </div>
@@ -45,7 +47,7 @@ const PricingCard = () => {
           <div className={styles.priceParent}>
             <b className={styles.price1}>60 Euro</b>
             <div className={styles.frameprice}>
-              <b className={styles.text200}>Что включено</b>
+              <b className={styles.text200}>{t('PricesDE-chto_vklucheno')}</b>
               <div className={styles.px}>
                 <div className={styles.iconsListItem}>
                   <div className={styles.listItem200}>
@@ -54,7 +56,7 @@ const PricingCard = () => {
                       type="radio" checked
                     />
                     <div className={styles.text2001}>
-                      Осмотр автомобиля(интерьер и экстерьер)
+                    {t('PricesDE-osmotr')}
                     </div>
                   </div>
                 </div>
@@ -64,7 +66,7 @@ const PricingCard = () => {
                       className={styles.filledIconscheckCircle1}
                       type="radio" checked
                     />
-                    <div className={styles.text2002}>Компьютерная диагностика автомобиля</div>
+                    <div className={styles.text2002}>{t('PricesDE-kompdiagnoz')}</div>
                   </div>
                 </div>
                 <div className={styles.framelistitem}>
@@ -75,7 +77,7 @@ const PricingCard = () => {
                         type="radio" checked
                       />
                       <div className={styles.text2003}>
-                      Проверка ЛКП прибором
+                      {t('PricesDE-checkfarb')}
                       </div>
                     </div>
                   </div>
@@ -88,7 +90,7 @@ const PricingCard = () => {
                         type="radio" checked
                       />
                       <div className={styles.text2004}>
-                      Фото и видео отчет. Тест драйв
+                      {t('PricesDE-fotovideo')}
                       </div>
                     </div>
                   </div>

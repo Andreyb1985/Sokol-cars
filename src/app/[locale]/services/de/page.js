@@ -5,9 +5,11 @@ import PrimaryButton from "@/components/PricesDE/primary-button";
 import PricingCard from "@/components/PricesDE/pricing-card";
 import styles from "./index.module.css";
 import Layout from '@/components/Layout';
-import Blog from '@/components/BlogUSA/indexusa';
+//import Blog from '@/components/BlogUSA/indexusa';
+import { useTranslations } from 'next-intl';
 
 const PricesDE = () => {
+  const t = useTranslations('PricesDE');
   return (
     <div className='root'>
       <Layout>
@@ -35,21 +37,21 @@ const PricesDE = () => {
                 <div className={styles.subtitleFrame}>
                   <div className={styles.subtitleFrameInner}>
                     <div className={styles.subtitleParent}>
-                      <div className={styles.subtitle}>Под ключ</div>
+                      <div className={styles.subtitle}>{t('PricesDE-allInclusive')}</div>
                       <div className={styles.priceText}>
                         <button className={styles.rectangleGroup}>
                           <div className={styles.rectangleDiv} />
-                          <div className={styles.div}>ТОП</div>
+                          <div className={styles.div}>{t('PricesDE-top')}</div>
                         </button>
                       </div>
                     </div>
                   </div>
-                  <b className={styles.price}>Оптимальный</b>
+                  <b className={styles.price}>{t('PricesDE-optimal')}</b>
                 </div>
               </div>
             </div>
             <div className={styles.paragraph}>
-              Поиск и подбор автомобиля в Германии под ключ. NRW,DE
+            {t('PricesDE-podborAuto')}
             </div>
           </div>
         </div>
@@ -61,14 +63,14 @@ const PricesDE = () => {
             <div className={styles.rectangleFrame}>
               <FrameComponent />
               <div className={styles.frameText}>
-                <b className={styles.px}>Что включено</b>
+                <b className={styles.px}> {t('PricesDE-chto_vklucheno')}</b>
                 <div className={styles.listItemFrame}>
                   <div className={styles.spacers1} />
                   <Px
-                    text200="Осмотр интерьера и экстерьера авто"
-                    text2001="Компьютерная диагностика"
-                    text2002="Проверка ЛКП прибором"
-                    pricetext="Фото и видео отчет. Тест драйв."
+                    text200={t('PricesDE-osmotr')}
+                    text2001={t('PricesDE-kompdiagnoz')}
+                    text2002={t('PricesDE-fotovideo')}
+                    pricetext={t('PricesDE-checkfarb')}
                     propAlignSelf="unset"
                     propFlex="1"
                     propAlignSelf1="unset"

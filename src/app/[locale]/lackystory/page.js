@@ -13,7 +13,7 @@ const Page = () => {
           unsplashYApiWyp0lqo="/mustang.png"
           headingLinkGroup="2015"
           heading3LinkToyotaCamrySE="Ford Mustang 5.0"
-          prop="43тыс  км"
+          prop="43000 km"
           persons="4 Persons"
           heading6Placeholder="$12300"
         />
@@ -21,7 +21,7 @@ const Page = () => {
           unsplashYApiWyp0lqo="/bmwf10.png"
           headingLinkGroup="2013"
           heading3LinkToyotaCamrySE="BMW 5 F10"
-          prop="113 тыс км"
+          prop="113000 km"
           persons="5 Persons"
           heading6Placeholder="$3500"
           buyNowColor="#384be8"
@@ -30,7 +30,7 @@ const Page = () => {
           unsplashYApiWyp0lqo="/bmwx5.png"
           headingLinkGroup="2017"
           heading3LinkToyotaCamrySE="BMW X5 F15"
-          prop="63 тыс км"
+          prop="63000 km"
           persons="5 Persons"
           heading6Placeholder="$13800"
           buyNowColor="#0047ff"
@@ -55,7 +55,7 @@ const Page = () => {
                 <b className={styles.heading3}>Audi Q5</b>
                 <div className={styles.divlistRating}>
                   <div className={styles.symbol}></div>
-                  <div className={styles.div2}>68 тыс км</div>
+                  <div className={styles.div2}>68000 km</div>
                 </div>
               </div>
               <div className={styles.divlistingDetailsGroup}>
@@ -125,7 +125,7 @@ const Page = () => {
           unsplashYApiWyp0lqo="/dodge.png"
           prop="2015"
           heading3LinkToyotaCamrySE="Dodge Challenger"
-          prop1="80 тыс км"
+          prop1="81000 km"
           prop2="$4800"
           byuNow="Byu Now"
         />
@@ -133,7 +133,7 @@ const Page = () => {
           unsplashYApiWyp0lqo="/bmwg30.png"
           prop="2017"
           heading3LinkToyotaCamrySE="BMW 5 G30"
-          prop1="23 тыс км"
+          prop1="23000 km"
           prop2="$14800"
           byuNow="Buy Now"
         />

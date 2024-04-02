@@ -1,0 +1,108 @@
+{
+  "Blog": {
+    "title-usa": "Вопросы по США",
+    "title-de": "Вопросы по Германии",
+    "defaultContent": "1.Цена покупки автомобиля ниже, чем в Украине на 15-20%\n2.Прозрачная история авто, данные из CarFax"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, ru {\uD83C\uDDF7\uD83C\uDDFA Русский} en {🇺🇸 English} other { 🇩🇪 Deutsch}}"
+  },
+  "Hero": {
+    "Hero-1": "Traumauto aus den USA und Deutschland",
+    "Hero-2": "Auto aus den USA",
+    "Hero-3": "Erschwinglicher Preis und große Auswahl.",
+    "Hero-4": "Auto aus Deutschland",
+    "Hero-5": "Schnelle Lieferung und deutsche Qualität."
+  },
+  "PurchaseProcess": {
+    "PurchaseProcess-1": "Der Prozess des Autokaufs in den USA,",
+    "PurchaseProcess-2": "Kauf",
+    "PurchaseProcess-auto": "Auto",
+    "PurchaseProcess-4": "Fahrzeugauswahl bei der Auktion und Sachverständigenprüfung",
+    "PurchaseProcess-5": "Versand auf dem Seeweg",
+    "PurchaseProcess-6": "Berechnung der optimalen Kosten für den Versand eines Fahrzeugs",
+    "PurchaseProcess-7": "Auto-Zollabfertigung",
+    "PurchaseProcess-8": "Berechnung von Zollzahlungen und Bearbeitung von Zollerklärungen",
+    "PurchaseProcess-9": "Reparatur",
+    "PurchaseProcess-10": "Umfassende Reparatur in der Partnerwerkstatt",
+    "PurchaseProcess-11": "Zertifi - zierung",
+    "PurchaseProcess-12": "Service wird auf Wunsch von unserem Partner durchgeführt",
+    "PurchaseProcess-13": "Fahrzeug - zulassung",
+    "PurchaseProcess-14": "Abschließende Phase der Zulassung Ihres Fahrzeugs"
+  },
+  "PurchaseProcessDe": {
+    "PurchaseProcessDe-1": "Der Prozess des Autokaufs in Deutschland,",
+    "PurchaseProcessDe-2": "Auto",
+    "PurchaseProcessDe-auto": "Kauf",
+    "PurchaseProcessDe-4": "Fahrzeugauswahl und Sachverständigenprüfung",
+    "PurchaseProcessDe-5": "Versand aus EU",
+    "PurchaseProcessDe-6": "Berechnung der optimalen Kosten für den Versand eines Fahrzeugs",
+    "PurchaseProcessDe-7": "Auto-Zollabfertigung",
+    "PurchaseProcessDe-8": "Berechnung von Zollzahlungen und Bearbeitung von Zollerklärungen",
+    "PurchaseProcessDe-11": "Zertifi - zierung",
+    "PurchaseProcessDe-12": "Service wird auf Wunsch von unserem Partner durchgeführt",
+    "PurchaseProcessDe-13": "Fahrzeug - zulassung",
+    "PurchaseProcessDe-14": "Abschließende Phase der Zulassung Ihres Fahrzeugs"
+  },
+  "WhyWe": {
+    "WhyWe-1": "Warum Sie uns wählen sollten",
+    "WhyWe-2": "Über unser Unternehmen",
+    "WhyWe-3": "Auswahl und Inspektion",
+    "WhyWe-4": "Prüfung in 10 Schritten, zusammengestellt in jahrelanger Erfahrung und basierend auf echten Kundenfällen (Checkliste)",
+    "WhyWe-5": "Autoversicherung",
+    "WhyWe-6": "Die Auto- und Transportversicherung auf dem Seeweg umfasst Risiken wie: Katastrophen, Feuer, Schiffbruch, etc.",
+    "WhyWe-7": "24/7-Support",
+    "WhyWe-8": "Unsere Manager sind für Sie da, um Sie zu einem für Sie günstigen Zeitpunkt umfassend zu beraten"
+  },
+  "navigation": {
+    "lackystory": "Erfolgreiche Stories",
+    "servicesUsa": "Auto aus USA",
+    "servicesDe": "Autos aus Deutschland",
+    "blog": "Häufig gestellte Fragen",
+    "aboutus": "Kontakte"
+  },
+  "PricesDE": {
+    "PricesDE-busines": "Für Unternehmen", 
+    "PricesDE-opt": "Großhandel",
+    "PricesDE-predlozenie_opt": "Angebot für Großhandelskunden.",
+    "PricesDE-10osmotrov": "Bestellung ab 10 Inspektionen.",
+    "PricesDE-nrw": "Land Nordrhein-Westfalen",
+    "PricesDE-chto_vklucheno": "Was ist inbegriffen",
+    "PricesDE-osmotr": "Fahrzeuginspektion",
+    "PricesDE-kompdiagnoz": "Autocomputerdiagnose",
+    "PricesDE-checkfarb": "Lackinspektion mit einem Gerät",
+    "PricesDE-fotovideo": "Foto- und Videobericht. Probefahrt",
+    "PricesDE-for_opt": "Für Fachleute",
+    "PricesDE-basis": "Basis",
+    "PricesDE-osmotot_zapros": "Fahrzeuginspektion auf Ihren Antrag.",
+    "PricesDE-allInclusive": "Alles inklusive",
+    "PricesDE-top": "TOP",
+    "PricesDE-optimal": "Optimale",
+    "PricesDE-podborAuto": "Fahrzeugsuche und -auswahl in Deutschland. NRW,DE"
+  },
+  "PricesUSA": {
+    "PricesUSA-busines": "Für Unternehmen", 
+    "PricesUSA-opt": "Großhandel",
+    "PricesUSA-fordealers": "Angebot für Handlers",
+    "PricesUSA-foropt": "und Großhandelskunden",
+    "PricesUSA-chto_vklucheno": "Was ist inbegriffen",
+    "PricesUSA-buycar": "Auto auf einer Auktion kaufen",
+    "PricesUSA-insurance": "Versicherung",
+    "PricesUSA-checkcar": "Auto-Check vor dem Kauf",
+    "PricesUSA-fotoport": "Fotos aus dem Hafen in den USA und Klaipeda",
+    "PricesUSA-for_experts": "Für Fachleute",
+    "PricesUSA-basis": "Basis",
+    "PricesUSA-individualsearch": "Personalisierte Fahrzeugsuche und -auswahl.",
+    "PricesUSA-allInclusive": "Alles inklusive",
+    "PricesUSA-top": "TOP",
+    "PricesUSA-optimal": "Optimale",
+    "PricesUSA-podborAuto": "Car Matching",
+    "PricesUSA-checkhistory": "US Auto History Check",
+    "PricesUSA-svaz": "Verbindung mit dem Kunden auf einer No-Hassle-Basis",
+    "PricesUSA-upravlenie": "Verwaltung des gesamten Prozesses",
+    "PricesUSA-pokupkazapros": "Autokauf nach Ihren Anfrage",
+    "PricesUSA-soprovogdenie": "Kundenbetreuung vom Kauf bis zur Lieferung"
+
+  }
+}

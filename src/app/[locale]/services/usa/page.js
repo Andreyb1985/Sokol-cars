@@ -5,8 +5,10 @@ import PrimaryButton from "@/components/PricesUSA/primary-button";
 import PricingCard from "@/components/PricesUSA/pricing-card";
 import styles from "./index.module.css";
 import Layout from '@/components/Layout';
+import { useTranslations } from 'next-intl';
 
 const PricesUSA = () => {
+  const t = useTranslations('PricesUSA');
   return (
     <div className='root'>
       <Layout>
@@ -34,21 +36,21 @@ const PricesUSA = () => {
                 <div className={styles.subtitleFrame}>
                   <div className={styles.subtitleFrameInner}>
                     <div className={styles.subtitleParent}>
-                      <div className={styles.subtitle}>Под ключ</div>
+                      <div className={styles.subtitle}>{t('PricesUSA-allInclusive')}</div>
                       <div className={styles.priceText}>
                         <button className={styles.rectangleGroup}>
                           <div className={styles.rectangleDiv} />
-                          <div className={styles.div}>ТОП</div>
+                          <div className={styles.div}>{t('PricesUSA-top')}</div>
                         </button>
                       </div>
                     </div>
                   </div>
-                  <b className={styles.price}>Оптимальный</b>
+                  <b className={styles.price}>{t('PricesUSA-optimal')}</b>
                 </div>
               </div>
             </div>
             <div className={styles.paragraph}>
-            Индивидуальный поиск и подбор автомобиля. 
+            {t('PricesUSA-individualsearch')}
             </div>
           </div>
         </div>
@@ -60,14 +62,14 @@ const PricesUSA = () => {
             <div className={styles.rectangleFrame}>
               <FrameComponent />
               <div className={styles.frameText}>
-                <b className={styles.px}>Что включено</b>
+                <b className={styles.px}>{t('PricesUSA-chto_vklucheno')}</b>
                 <div className={styles.listItemFrame}>
                   <div className={styles.spacers1} />
                   <Px
-                    text200="Подбор Автомобиля"
-                    text2001="Проверка истории авто в США"
-                    text2002="Связь с клиентом без выходных"
-                    pricetext="Управление всем процессом"
+                    text200={t('PricesUSA-podborAuto')}
+                    text2001={t('PricesUSA-checkhistory')}
+                    text2002={t('PricesUSA-svaz')}
+                    pricetext={t('PricesUSA-upravlenie')}
                     propAlignSelf="unset"
                     propFlex="1"
                     propAlignSelf1="unset"

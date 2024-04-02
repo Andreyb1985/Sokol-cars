@@ -1,3 +1,8 @@
+
+//import { useTranslations } from 'next-intl';
+
+//const t = useTranslations('navigation');
+
 const navigationConfig = [
     {
         title: 'О компании',
