@@ -63,7 +63,7 @@
     "aboutus": "Kontakte"
   },
   "PricesDE": {
-    "PricesDE-busines": "Für Unternehmen", 
+    "PricesDE-busines": "Für Unternehmen",
     "PricesDE-opt": "Großhandel",
     "PricesDE-predlozenie_opt": "Angebot für Großhandelskunden.",
     "PricesDE-10osmotrov": "Bestellung ab 10 Inspektionen.",
@@ -82,7 +82,7 @@
     "PricesDE-podborAuto": "Fahrzeugsuche und -auswahl in Deutschland. NRW,DE"
   },
   "PricesUSA": {
-    "PricesUSA-busines": "Für Unternehmen", 
+    "PricesUSA-busines": "Für Unternehmen",
     "PricesUSA-opt": "Großhandel",
     "PricesUSA-fordealers": "Angebot für Handlers",
     "PricesUSA-foropt": "und Großhandelskunden",
@@ -103,6 +103,13 @@
     "PricesUSA-upravlenie": "Verwaltung des gesamten Prozesses",
     "PricesUSA-pokupkazapros": "Autokauf nach Ihren Anfrage",
     "PricesUSA-soprovogdenie": "Kundenbetreuung vom Kauf bis zur Lieferung"
-
+  },
+  "BlogDe": {
+    "content1-title": "DE Почему выгодно покупать автомобиль в Германии",
+    "content2-title": "DE Кикие автомобили лучше покупать?",
+    "content3-title": "DE Сколько стоит доставка авто из Германии",
+    "content1": "DE 1) Регулярное тех обслуживание на официальных сервисах\n2) Качественно европейское топливо и дороги\n3) Скорость доставки до 2 дней в Украину\n4) Редкие и богатые комплектации автомобилей",
+    "content2": "DE Автомобили от 30 тыс эвро и электромобили",
+    "content3": "DE В среднем доставка из Германии в Украину составляет до 1000 эвро"
   }
 }

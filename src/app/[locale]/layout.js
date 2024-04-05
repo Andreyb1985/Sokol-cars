@@ -1,7 +1,9 @@
 import { Inter } from "next/font/google";
+import NextIntlProvider from '@/app/[locale]/NextIntlProvider'
 //import { GoogleAnalytics } from '@next/third-parties/google'
 
 import '@/styles/global.css';
+import { notFound } from 'next/navigation';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,10 +19,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->*/
 };
 
-export default function RootLayout({ children, params: {locale} }) {
+export default async function RootLayout({ children, params: {locale} }) {
+  let translations;
+  try {
+    translations = (await import(`../../../messages/${locale}.json`))
+      .default;
+  } catch (error) {
+    notFound();
+  }
+
   return (
     <html lang={locale}>
-      <body className={inter.className}>{children}
+      <body className={inter.className}>
+      <NextIntlProvider locale={locale} messages={translations} timeZone="Europe/Berlin" now={new Date()}>
+        {children}
+      </NextIntlProvider>
+
       {/*<GoogleAnalytics gaId="G-ZTTTTK57SM" />*/}
      {/* <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KV85DKRL"
