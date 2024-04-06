@@ -63,7 +63,9 @@
     "servicesUsa": "Auto from Usa",
     "servicesDe": "Auto from Germany",
     "blog": "Frequent questions",
-    "aboutus": "Contacts"
+    "aboutus": "Contacts",
+    "aboutcompany": "About",
+    "callback": "Callback"
   },
   "PricesDE": {
     "PricesDE-busines": "For the business",

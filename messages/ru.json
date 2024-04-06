@@ -64,7 +64,8 @@
     "servicesUsa": "Авто из США",
     "servicesDe": "Авто из Германии",
     "blog": "Частые вопросы",
-    "aboutus": "Контакты"
+    "aboutus": "Контакты",
+    "callback": "Обратный звонок"
   },
   "PricesDE": {
     "PricesDE-busines": "Для бизнеса",

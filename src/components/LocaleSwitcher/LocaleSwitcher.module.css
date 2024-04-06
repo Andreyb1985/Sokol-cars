@@ -9,7 +9,7 @@
 }
 
 .select {
-  background-color: red;
+  background-color: transparent;
 }
 
 @media screen and (max-width: 1050px) {

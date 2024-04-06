@@ -10,11 +10,16 @@ import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import s from './CustomDrawler.module.css'
-import Link from 'next/link';
+//import Link from 'next/link';
+import {Link} from '@/navigation';
+import { useTranslations } from 'next-intl';
+
 
 const drawerWidth = 240;
 
-const CustomDrawer = ({ navigationConfig = [] }) => {
+const CustomDrawer = ({ navigationConfig}) => {
+    const t = useTranslations('navigation');
+
     const [open, setOpen] = React.useState(false);
 
     const handleDrawerOpen = () => {
@@ -49,9 +54,9 @@ const CustomDrawer = ({ navigationConfig = [] }) => {
                         open={open}
                     >
                         <List>
-                            {navigationConfig.map(({ link, title } = {}) => (
-                                <ListItem button key={title}>
-                                  <Link href={link}>{title}</Link>
+                            {navigationConfig.map(({ link, titleTranslationKey } = {}) => (
+                                <ListItem button key={titleTranslationKey}>
+                                  <Link href={link}>{t(titleTranslationKey)}</Link>
                                 </ListItem>
                                 ))}
 
@@ -65,7 +70,7 @@ const CustomDrawer = ({ navigationConfig = [] }) => {
                         <Link href='tel:+491754068143'>+491754068143</Link>
                         </ListItem>
                         <ListItem button>
-                                    <ListItemText primary='обратный звонок' />
+                                    <ListItemText primary={t('callback')} />
                         </ListItem>
                            
                         </List>

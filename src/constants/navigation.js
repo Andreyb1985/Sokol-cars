@@ -5,7 +5,7 @@ const navigationConfig = [
         link: '/',
     },
     {
-        titleTranslationKey: 'Удачные истории',
+        titleTranslationKey: "lackystory",
         link: '/lackystory',
     },
     // {
@@ -13,19 +13,19 @@ const navigationConfig = [
     //     link: '/',
     // },
     {
-        titleTranslationKey: 'Авто из США',
+        titleTranslationKey: "servicesUsa",
         link: '/services/usa',
     },
     {
-        titleTranslationKey: 'Авто из Германии',
+        titleTranslationKey: "servicesDe",
         link: '/services/de',
     },
     {
-        titleTranslationKey: 'Частые вопросы',
+        titleTranslationKey: "blog",
         link: '/blog',
     },
     {
-        titleTranslationKey: 'Контакты',
+        titleTranslationKey: "aboutus",
         link: '/aboutus',
     },
 ];

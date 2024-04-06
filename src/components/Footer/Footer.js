@@ -6,6 +6,7 @@ import s from './Footer.module.css';
 import { Facebook, Youtube, Instagram } from '../icons';
 import navigationConfig from '@/constants/navigation';
 import { useTranslations } from 'next-intl';
+import {Link} from '@/navigation';
 
 const Footer = () => {
     const t = useTranslations('Footer');
@@ -16,8 +17,8 @@ const Footer = () => {
                     <div className={s.firstContainer}>
                         <FooterLogo />
                         <ul className={s.socialMedia}>
-                            <li><a href='https://www.facebook.com/sokolautos'><Facebook/></a></li>
-                            <li><a href='https://www.instagram.com/sokol.autos/'><Instagram/></a></li>
+                            <li><Link href='https://www.facebook.com/sokolautos'><Facebook/></Link></li>
+                            <li><Link href='https://www.instagram.com/sokol.autos/'><Instagram/></Link></li>
                         </ul>
                     </div>
                     <div className={s.secoundContainer}>
@@ -38,7 +39,7 @@ const Footer = () => {
                         <li><a>Карта сайта</a></li>
                     </ul>
                     <p>Copyrirght 2024 &copy; Sokol Auto</p>
-                    <p className={s.rights}>{t('copyrirght')}</p>
+                    <p className={s.rights}>{t('address')}</p>
                 </div>
                 </div>
 

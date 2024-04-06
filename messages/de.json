@@ -58,9 +58,11 @@
   "navigation": {
     "lackystory": "Erfolgreiche Stories",
     "servicesUsa": "Auto aus USA",
-    "servicesDe": "Autos aus Deutschland",
-    "blog": "Häufig gestellte Fragen",
-    "aboutus": "Kontakte"
+    "servicesDe": "Autos aus DE",
+    "blog": "Häufig Fragen",
+    "aboutus": "Kontakte",
+    "aboutcompany": "Über",
+    "callback": "Callback"
   },
   "PricesDE": {
     "PricesDE-busines": "Für Unternehmen",
