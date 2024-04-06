@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import NextIntlProvider from '@/app/[locale]/NextIntlProvider'
-//import { GoogleAnalytics } from '@next/third-parties/google'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 import '@/styles/global.css';
 import { notFound } from 'next/navigation';
@@ -36,7 +36,7 @@ export default async function RootLayout({ children, params: { locale } }) {
 			{children}
 		</NextIntlProvider>
 
-		{/*<GoogleAnalytics gaId="G-ZTTTTK57SM" />*/}
+		<GoogleAnalytics gaId="G-ZTTTTK57SM" />
 		{/* <!-- Google Tag Manager (noscript) -->
 		 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KV85DKRL"
 		 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
