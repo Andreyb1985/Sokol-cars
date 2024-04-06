@@ -1,15 +1,11 @@
 
-//import { useTranslations } from 'next-intl';
-
-//const t = useTranslations('navigation');
-
 const navigationConfig = [
     {
-        title: 'О компании',
+        titleTranslationKey: "aboutcompany",
         link: '/',
     },
     {
-        title: 'Удачные истории',
+        titleTranslationKey: 'Удачные истории',
         link: '/lackystory',
     },
     // {
@@ -17,19 +13,19 @@ const navigationConfig = [
     //     link: '/',
     // },
     {
-        title: 'Авто из США',
+        titleTranslationKey: 'Авто из США',
         link: '/services/usa',
     },
     {
-        title: 'Авто из Германии',
+        titleTranslationKey: 'Авто из Германии',
         link: '/services/de',
     },
     {
-        title: 'Частые вопросы',
+        titleTranslationKey: 'Частые вопросы',
         link: '/blog',
     },
     {
-        title: 'Контакты',
+        titleTranslationKey: 'Контакты',
         link: '/aboutus',
     },
 ];
