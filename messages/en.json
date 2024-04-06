@@ -7,7 +7,7 @@
     "title-de": "Questions about Germany",
     "defaultContent": "1.Цена покупки автомобиля ниже, чем в Украине на 15-20%\n2.Прозрачная история авто, данные из"
   },
-    "LocaleSwitcher": {
+  "LocaleSwitcher": {
     "label": "Change language RU",
     "locale": "{locale, select, ru {\uD83C\uDDF7\uD83C\uDDFA Русский} en {🇺🇸 English} other { 🇩🇪 Deutsch}}"
   },
@@ -110,17 +110,17 @@
   "Stories": {
     "realstory": "The real stories of our customers",
     "allstories": "Allstories"
-},
-"Footer": {
-  "address": "Central Office Address:",
-  "copyrirght": "All materials contained on the site are the intellectual property of the site owner. Any full or partial copying of materials of the site is allowed with the obligatory indication of a link to this site.  All rights reserved."
-},
-"BlogDe": {
-  "content1-title": "EN Почему выгодно покупать автомобиль в Германии",
-  "content2-title": "EN Кикие автомобили лучше покупать?",
-  "content3-title": "EN Сколько стоит доставка авто из Германии",
-  "content1": "EN 1) Регулярное тех обслуживание на официальных сервисах\n2) Качественно европейское топливо и дороги\n3) Скорость доставки до 2 дней в Украину\n4) Редкие и богатые комплектации автомобилей",
-  "content2": "EN Автомобили от 30 тыс эвро и электромобили",
-  "content3": "EN В среднем доставка из Германии в Украину составляет до 1000 эвро"
-}
+  },
+  "Footer": {
+    "address": "Central Office Address:",
+    "copyrirght": "All materials contained on the site are the intellectual property of the site owner. Any full or partial copying of materials of the site is allowed with the obligatory indication of a link to this site.  All rights reserved."
+  },
+  "BlogDe": {
+    "content1-title": "EN Почему выгодно покупать автомобиль в Германии",
+    "content2-title": "EN Кикие автомобили лучше покупать?",
+    "content3-title": "EN Сколько стоит доставка авто из Германии",
+    "content1": "EN 1) Регулярное тех обслуживание на официальных сервисах\n2) Качественно европейское топливо и дороги\n3) Скорость доставки до 2 дней в Украину\n4) Редкие и богатые комплектации автомобилей",
+    "content2": "EN Автомобили от 30 тыс эвро и электромобили",
+    "content3": "EN В среднем доставка из Германии в Украину составляет до 1000 эвро"
+  }
 }
