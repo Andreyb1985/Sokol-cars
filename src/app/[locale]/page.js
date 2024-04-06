@@ -14,11 +14,11 @@ export default function Home() {
       <div className='root'>
         <Layout nodesUnderBg={<Hero />}>
           <PurchaseProcess />
-         {/* <PurchaseProcessDe />*/}
-         {/* <WhyWe />*/}
-         {/*/!* <OurServices />*!/*/}
-         {/* <Stories />*/}
-         {/* <Questions/>*/}
+          <PurchaseProcessDe />
+          <WhyWe />
+         {/* <OurServices />*/}
+          <Stories />
+          <Questions/>
         </Layout>
       </div>
     </main>
