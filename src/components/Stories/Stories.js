@@ -8,15 +8,16 @@ import volkswagen from '@/images/q5.png';
 import fordEscape from '@/images/dodge.png';
 import audi from '@/images/bmwg30.png';
 import { Play, ArrRightBlue } from '@/components/icons';
-
+import { useTranslations } from 'next-intl';
 import s from './Stories.module.css';
 
 const Stories = () => {
+    const t = useTranslations('Stories');
     return (
         <div className={s.bgContainer}>
             <div className={s.container}>
-                <h2 className={s.sectionTitle}>Реальные истории наших клиентов</h2>
-                <a href="/lackystory" className={s.allStories}>Все истории <ArrRightBlue className={s.sectionArrSvg} /></a>
+                <h2 className={s.sectionTitle}>{t('realstory')}</h2>
+                <a href="/lackystory" className={s.allStories}>{t('allstories')} <ArrRightBlue className={s.sectionArrSvg} /></a>
                 <ul className={s.storiesList}>
                     <li className={s.storiesItem}>
                         <Image src={mustang} className={s.image} />

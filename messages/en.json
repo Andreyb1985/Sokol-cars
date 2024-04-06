@@ -106,6 +106,13 @@
     "PricesUSA-upravlenie": "Manage the entire process",
     "PricesUSA-pokupkazapros": "Buying a car according to your request",
     "PricesUSA-soprovogdenie": "Customer support from purchase to delivery"
-
-  }
+  },
+  "Stories": {
+    "realstory": "The real stories of our customers",
+    "allstories": "Allstories"
+},
+"Footer": {
+  "address": "Central Office Address:",
+  "copyrirght": "All materials contained on the site are the intellectual property of the site owner. Any full or partial copying of materials of the site is allowed with the obligatory indication of a link to this site.  All rights reserved."
+}
 }

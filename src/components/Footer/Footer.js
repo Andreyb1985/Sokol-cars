@@ -5,9 +5,10 @@ import FooterContacts from '../FooterContacts';
 import s from './Footer.module.css';
 import { Facebook, Youtube, Instagram } from '../icons';
 import navigationConfig from '@/constants/navigation';
-
+import { useTranslations } from 'next-intl';
 
 const Footer = () => {
+    const t = useTranslations('Footer');
     return (
         <footer className={s.mainFooter}>
             <div className={s.firstsBg}>
@@ -23,7 +24,7 @@ const Footer = () => {
                         <FooterNavigation navigationConfig={navigationConfig}/>
                         <FooterContacts />
                         <address className={s.adress}>
-                            <p className={s.adressTitle}>Адрес центрального офиса:</p>
+                            <p className={s.adressTitle}>{t('address')}</p>
                             <p className={s.adressDesc}>45141, Essen,Große Leining 22</p>
                         </address>
                     </div>
@@ -36,9 +37,8 @@ const Footer = () => {
                         <li><a>Политика конфиденциальности</a></li>
                         <li><a>Карта сайта</a></li>
                     </ul>
-                    <p>Copyrirght 2024 &copy; Sokol Car</p>
-                    <p className={s.rights}>Все материалы, содержащиеся на сайте, являются интеллектуальной собственностью владельца сайта. Любое полное или частичное копирование материалов сайта
-    допускается с обязательным указанием ссылки на этот сайт.  Все права защищены.</p>
+                    <p>Copyrirght 2024 &copy; Sokol Auto</p>
+                    <p className={s.rights}>{t('copyrirght')}</p>
                 </div>
                 </div>
 
