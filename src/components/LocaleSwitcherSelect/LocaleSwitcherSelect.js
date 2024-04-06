@@ -27,8 +27,9 @@ export default function LocaleSwitcherSelect({
   }
 
   return (
-    <div className={s.select}>
+    <div className={s.selectWrapper}>
       <select
+        className={s.select}
         defaultValue={defaultValue}
         disabled={isPending}
         onChange={onSelectChange}
