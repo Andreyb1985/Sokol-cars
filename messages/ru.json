@@ -9,7 +9,7 @@
   },
   "LocaleSwitcher": {
     "label": "Change language",
-    "locale": "{locale, select, ru {\uD83C\uDDF7\uD83C\uDDFA Русский} en {🇺🇸 English} other { 🇩🇪 Deutsch}}"
+    "locale": "{locale, select, ru {\uD83C\uDDF7\uD83C\uDDFA } en {🇺🇸 } other { 🇩🇪 }}"
 
   },
   "Hero": {

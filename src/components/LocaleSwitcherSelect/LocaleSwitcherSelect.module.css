@@ -40,7 +40,7 @@
 @media screen and (max-width: 450px) {
   .selectWrapper {
     z-index: 2;
-    top: 200px;
+    top: 50px;
     right: 50px;
     position: absolute;
   }
