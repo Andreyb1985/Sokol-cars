@@ -29,4 +29,20 @@
     position: absolute;
   }
 }
+@media screen and (max-width: 750px) {
+  .selectWrapper {
+    z-index: 2;
+    top: 50px;
+    right: 50px;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 450px) {
+  .selectWrapper {
+    z-index: 2;
+    top: 200px;
+    right: 50px;
+    position: absolute;
+  }
+}
 
