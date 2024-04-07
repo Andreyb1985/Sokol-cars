@@ -1,8 +1,8 @@
 {
   "Blog": {
-    "title-usa": "Вопросы по США",
-    "title-de": "Вопросы по Германии",
-    "defaultContent": "1.Цена покупки автомобиля ниже, чем в Украине на 15-20%\n2.Прозрачная история авто, данные из CarFax"
+    "title-usa": "US-Autofragen",
+    "title-de": "Fragen zum deutschen Auto"
+    
   },
   "LocaleSwitcher": {
     "label": "Change language",
@@ -115,11 +115,39 @@
     "copyrirght": "Alle auf der Website enthaltenen Materialien sind das geistige Eigentum des Eigentümers der Website. Jede vollständige oder teilweise Vervielfältigung von Materialien der Website ist mit der obligatorischen Angabe eines Verweises auf diese Website erlaubt.  Alle Rechte vorbehalten."
   },
   "BlogDe": {
-    "content1-title": "DE Почему выгодно покупать автомобиль в Германии",
-    "content2-title": "DE Кикие автомобили лучше покупать?",
-    "content3-title": "DE Сколько стоит доставка авто из Германии",
-    "content1": "DE 1) Регулярное тех обслуживание на официальных сервисах\n2) Качественно европейское топливо и дороги\n3) Скорость доставки до 2 дней в Украину\n4) Редкие и богатые комплектации автомобилей",
-    "content2": "DE Автомобили от 30 тыс эвро и электромобили",
-    "content3": "DE В среднем доставка из Германии в Украину составляет до 1000 эвро"
+    "content1-title": "Warum es vorteilhaft ist, ein Auto in Deutschland zu kaufen",
+    "content2-title": "Welche Autos sind am besten zu kaufen?",
+    "content3-title": "Wie viel kostet die Verschiffung eines Autos aus Deutschland",
+    "content1": "1)Regelmäßige technische Wartung bei offiziellen Stellen\n2) Qualität europäischer Kraftstoff und Straßen\n3) Liefergeschwindigkeit bis zu 2 Tagen in der Ukraine\n4) Seltene und reichhaltige Autokonfigurationen",
+    "content2": "Autos ab 30 Tausend Euro und Elektroautos",
+    "content3": "Im Durchschnitt kostet die Lieferung von Deutschland in die Ukraine bis zu 1000 Euro"
+  },
+  "BlogUSA": {
+    "content1-title": "Warum lohnt es sich, Autos aus den USA zu kaufen?",
+    "content2-title": "Wie hoch sind die Kosten für den Versand von Autos aus den USA in den Hafen von Klaipeda?",
+    "content3-title": "Wie hoch sind die Kosten für den Versand von Klaipeda Hafen in die Ukraine?",
+    "content4-title": "Ist das Auto versichert?",
+    "content5-title": "Welche Autos lohnen sich für den Kauf in den USA?",
+    "content1": "Der Preis für den Kauf eines Autos ist niedriger als in der Ukraine um 15-20%\n2.Transparente Geschichte des Autos, Daten von CarFax",
+    "content2": "Die Kosten für die Lieferung variieren sehr dynamisch je nach wirtschaftlicher und politischer Situation. Zum Beispiel, die Kosten für die Lieferung an den Hafen von Klaipeda:\n - Florida, Miami = 1300$\n - New York, Long Island = 1200$\n - Georgia, Savannah = 1000$\n - Kalifornien, Los Angeles = 1700$\n - Texas, Houston = 1300$\n - South Carolina, North Charleston = 1000$",
+    "content3": "Die Kosten für die Lieferung hängt von der Stadt der Lieferung in der Ukraine. Im Durchschnitt ist es nach Lviv - 850 USD und nach Kiev - 950 USD",
+    "content4": "Alle Autos sind gegen zusätzliche Schäden bei der Lieferung versichert. Kosten der Versicherung = 1%, Selbstbehalt 100 USD. Das Auto ist gemäß den Fotos aus der Auktion versicher",
+    "content5": "Am günstigsten sind US-Markt-Autos und für den US-Markt konzipierte Autos, wie Toyota, Lexus, Honda, Hyundai, VW, BMW"
+  },
+  "AboutUs": {
+    "AboutUs1": "Haben Sie noch Fragen?",
+    "AboutUs2": "Wenn Sie noch Fragen haben, füllen Sie bitte das Formular aus und unsere Experten werden sich in Kürze mit Ihnen in Verbindung setzen",
+    "AboutUs3": "Ihre Name",
+    "AboutUs4": "Ihre Handynnummer",
+    "AboutUs5": "Ihre E-Mail",
+    "AboutUs6": "Ihre Nachricht",
+    "AboutUs7": "Anfrage senden",
+    "AboutUs8": "Über Uns",
+    "AboutUs9": "Unser Unternehmen beschafft und verschickt seit 2019 Autos aus den USA und Deutschland. Wir haben Kunden über 100 Autos für verschiedene Bedürfnisse und Budget gekauft.",
+    "AboutUs10": "Contact Information :",
+    "AboutUs11": "E-Mail",
+    "AboutUs12": "Telefonnummer",
+    "AboutUs13": "Offnungszeiten: Von 10.00 bis 18.00 Uhr."
+
   }
 }

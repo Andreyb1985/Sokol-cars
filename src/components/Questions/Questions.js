@@ -9,6 +9,7 @@ import PhoneInput from '@/components/ui/PhoneInput'
 import Button from '@/components/ui/Button'
 import Textarea from '@/components/ui/Textarea'
 import { handler } from '@/app/actions';
+import { useTranslations } from 'next-intl';
 
 const defaultValues = {
 	name: '',
@@ -24,13 +25,13 @@ const Questions = () => {
 		console.log("DEBUG values", values);
 		handler(values);
 	}
+	const t = useTranslations('AboutUs');
 
 	return (
 		<div className={s.container}>
 			<div className={s.content}>
-				<h2 className={s.questionsTitle}>Остались вопросы?</h2>
-				<p className={s.questionsDesc}>Если у вас остались вопросы, заполните форму и наши
-					специалисты в ближайшее время свяжутся с вами</p>
+				<h2 className={s.questionsTitle}>{t('AboutUs1')}</h2>
+				<p className={s.questionsDesc}>{t('AboutUs2')}</p>
 				<Formik
 					validateOnChange={false}
 					validateOnBlur={false}
@@ -52,7 +53,7 @@ const Questions = () => {
 											value={values.name}
 											onChange={e => setFieldValue('name', e.target.value)}
 											name='name'
-											placeholder='Имя'
+											placeholder={t('AboutUs3')}
 											error={errors.name}
 											maxLength={255}
 											className={s.name}
@@ -65,7 +66,7 @@ const Questions = () => {
 												setFieldValue('phoneNumber', value)
 												setFieldError('phoneNumber', undefined)
 											}}
-											placeholder='Ваш телефон'
+											placeholder={t('AboutUs4')}
 											data-test="phoneNumber"
 											value={values.phoneNumber}
 											error={touched?.phoneNumber ? errors?.phoneNumber : undefined}
@@ -109,7 +110,7 @@ const Questions = () => {
 									// className={styles.button}
 									type="submit"
 									className={s.btn}>
-									Oтправить запрос
+									{t('AboutUs6')}
 									<ArrRight className={s.arr}
 									/>
 								</Button>

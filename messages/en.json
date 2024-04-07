@@ -4,8 +4,8 @@
   },
   "Blog": {
     "title-usa": "Questions about the USA",
-    "title-de": "Questions about Germany",
-    "defaultContent": "1.Цена покупки автомобиля ниже, чем в Украине на 15-20%\n2.Прозрачная история авто, данные из"
+    "title-de": "Questions about Germany"
+    
   },
   "LocaleSwitcher": {
     "label": "Change language RU",
@@ -118,11 +118,39 @@
     "copyrirght": "All materials contained on the site are the intellectual property of the site owner. Any full or partial copying of materials of the site is allowed with the obligatory indication of a link to this site.  All rights reserved."
   },
   "BlogDe": {
-    "content1-title": "EN Почему выгодно покупать автомобиль в Германии",
-    "content2-title": "EN Кикие автомобили лучше покупать?",
-    "content3-title": "EN Сколько стоит доставка авто из Германии",
-    "content1": "EN 1) Регулярное тех обслуживание на официальных сервисах\n2) Качественно европейское топливо и дороги\n3) Скорость доставки до 2 дней в Украину\n4) Редкие и богатые комплектации автомобилей",
-    "content2": "EN Автомобили от 30 тыс эвро и электромобили",
-    "content3": "EN В среднем доставка из Германии в Украину составляет до 1000 эвро"
+    "content1-title": "Why it is beneficial to buy a car in Germany",
+    "content2-title": "Which cars are best to buy?",
+    "content3-title": "How much does it cost to ship a car from Germany",
+    "content1": "1) Regular technical maintenance at official services\n2) Quality European fuel and roads\n3) Delivery speed up to 2 days in Ukraine\n4) Rare and rich car configurations",
+    "content2": "Cars from 30 thousand euros and electric cars",
+    "content3": "On average, delivery from Germany to Ukraine is up to 1000 euros"
+  },
+  "BlogUSA": {
+    "content1-title": "Why is it profitable to buy cars from the USA?",
+    "content2-title": "What is the cost of shipping cars from USA to Klaipeda port?",
+    "content3-title": "What is the cost of shipping from Klaipeda port to Ukraine",
+    "content4-title": "Is the car insured?",
+    "content5-title": "Which cars are profitable to buy in the USA?",
+    "content1": "1.The price of buying a car is lower than in Ukraine by 15-20%\n2.Transparent history of the car, data from CarFax",
+    "content2": "The cost of delivery varies quite dynamically depending on the economic and political situation. For example, the cost of delivery to the port of Klaipeda:\n - Florida, Miami = 1300 dollars\n - New York, Long Island = 1200 dollars,\n - Georgia, Savannah = 1000 dollars,\n - California, Los Angeles = 1700 dollars,\n - Texas, Houston = 1300 dollars,\n - South Carolina, North Charleston = 1000 dollars",
+    "content3": "he cost of delivery depends on the city of delivery in Ukraine. On average, it is to Lviv - 850 dollars and to Kiev - 950 dollars",
+    "content4": "All cars are insured against additional damage during delivery. The cost of insurance = 1%, deductible 100 dollars. The car is insured according to the photos from the auction",
+    "content5": "The most favorable are US market autos and autos designed for the US market, such as Toyota, Lexus, Honda, Hyundai, VW, BMW"
+  },
+  "AboutUs": {
+    "AboutUs1": "Do you have any questions?",
+    "AboutUs2": "If you still have questions, please fill out the form and our experts will contact you shortly.",
+    "AboutUs3": "Your Name",
+    "AboutUs4": "Your Phone Number",
+    "AboutUs5": "Your Email",
+    "AboutUs6": "Your Message",
+    "AboutUs7": "Send request",
+    "AboutUs8": "About Us",
+    "AboutUs9": "Our Company has been sourcing and shipping cars from USA and Germany since 2019. We have bought customers more than 100 cars for different needs and budget.",
+    "AboutUs10": "Contact Information :",
+    "AboutUs11": "Mail:",
+    "AboutUs12": "Phone number:",
+    "AboutUs13": "Working time: From 10.00 to 18.00."
+
   }
 }

@@ -34,12 +34,12 @@ const Footer = () => {
             <div className={s.secoundBg}>
                 <div className={s.copyrirghtContainer}>
                     <ul className={s.copyrirghtList}>
-                        <li><a>Правила пользования</a></li>
+                        {/*<li><a>Правила пользования</a></li>
                         <li><a>Политика конфиденциальности</a></li>
-                        <li><a>Карта сайта</a></li>
+                        <li><a>Карта сайта</a></li>*/}
                     </ul>
                     <p>Copyrirght 2024 &copy; Sokol Auto</p>
-                    <p className={s.rights}>{t('address')}</p>
+                   { /*<p className={s.rights}>{t('address')}</p>*/}
                 </div>
                 </div>
 
