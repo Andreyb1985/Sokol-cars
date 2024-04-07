@@ -1,7 +1,7 @@
 .selectWrapper {
   z-index: 2;
-  top: 50px;
-  right: 40px;
+  top: 150px;
+  left: 350px;
   position: absolute;
   display: inline-flex;
   appearance: none;
@@ -13,11 +13,19 @@
   color: aliceblue;
 }
 
-@media screen and (max-width: 1050px) {
-  .select {
+@media screen and (max-width: 1440px) {
+  .selectWrapper {
     z-index: 2;
-    top: 150px;
+    top: 120px;
     right: 150px;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 1069px) {
+  .selectWrapper {
+    z-index: 2;
+    top: 50px;
+    right: 50px;
     position: absolute;
   }
 }
