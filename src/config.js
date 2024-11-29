@@ -1,11 +1,12 @@
-export const locales = ['en', 'ru', 'de'];
+export const locales = ['en', 'ru', 'de', 'ua'];
 
 export const pathnames = {
   '/': '/',
   '/company/about-us': {
     en: '/test',
     ru: '/test',
-    de: '/test'
+    de: '/test',
+    ua: '/test'
   }
 };
 
