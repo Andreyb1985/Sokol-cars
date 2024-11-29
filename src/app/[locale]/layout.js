@@ -28,7 +28,7 @@ export default async function RootLayout({ children, params: { locale } }) {
 											now={new Date()}>
 			{children}
 		</NextIntlProvider>
-		<GoogleAnalytics gaId="G-ZTTTTK57SM" />
+		<GoogleAnalytics gaId="AW-16801379163" />
 		</body>
 		</html>
 	);
