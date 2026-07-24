@@ -16,8 +16,14 @@ import WelcomeTemplate from "@/emails/WelcomeTemplate";
 import { sendEmail } from "@/lib/email";
 
 export async function handler(data) {
+  const recipient = process.env.CONTACT_FORM_RECIPIENT;
+
+  if (!recipient) {
+    throw new Error("Missing required environment variable: CONTACT_FORM_RECIPIENT");
+  }
+
   return await sendEmail({
-    to: "andriibakanov@gmail.com",
+    to: recipient,
     subject: "SOKOL CARS REQUEST",
     html: render(WelcomeTemplate(data)),
   });

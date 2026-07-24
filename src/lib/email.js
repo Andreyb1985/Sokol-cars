@@ -1,24 +1,31 @@
 import nodemailer from "nodemailer"
 
-// Replace with your SMTP credentials
-const smtpOptions = {
-	service: "Gmail",
-	host: "smtp.gmail.com",
-	port: 465,
-	secure: true,
-	auth: {
-		user: "sokol.autos@gmail.com" || "user",
-		pass: "tlqn iyud vsjg lwcj" || "password",
-	},
+const requiredEnv = (name) => {
+	const value = process.env[name]
+
+	if (!value) {
+		throw new Error(`Missing required environment variable: ${name}`)
+	}
+
+	return value
 }
 
 export const sendEmail = async (data) => {
+	const smtpOptions = {
+		host: process.env.SMTP_HOST || "smtp.gmail.com",
+		port: Number(process.env.SMTP_PORT || 465),
+		secure: true,
+		auth: {
+			user: requiredEnv("SMTP_USER"),
+			pass: requiredEnv("SMTP_PASSWORD"),
+		},
+	}
 	const transporter = nodemailer.createTransport({
 		...smtpOptions,
 	})
 
 	return await transporter.sendMail({
-		from: "test@test2.net",
+		from: process.env.SMTP_FROM || smtpOptions.auth.user,
 		...data,
 	})
 }
