@@ -16,15 +16,66 @@ import WelcomeTemplate from "@/emails/WelcomeTemplate";
 import { sendEmail } from "@/lib/email";
 
 export async function handler(data) {
+  const requestId = crypto.randomUUID();
   const recipient = process.env.CONTACT_FORM_RECIPIENT;
 
   if (!recipient) {
-    throw new Error("Missing required environment variable: CONTACT_FORM_RECIPIENT");
+    console.error(`[contact-form][${requestId}] Server configuration error`, {
+      missingVariable: "CONTACT_FORM_RECIPIENT",
+    });
+
+    return {
+      ok: false,
+      requestId,
+      error: "Server email configuration is incomplete",
+    };
   }
 
-  return await sendEmail({
-    to: recipient,
-    subject: "SOKOL CARS REQUEST",
-    html: render(WelcomeTemplate(data)),
+  console.info(`[contact-form][${requestId}] Request received by server`, {
+    recipient,
+    fields: {
+      name: Boolean(data?.name),
+      phoneNumber: Boolean(data?.phoneNumber),
+      email: Boolean(data?.email),
+      message: Boolean(data?.message),
+    },
   });
+
+  try {
+    const result = await sendEmail({
+      to: recipient,
+      subject: "SOKOL CARS REQUEST",
+      html: render(WelcomeTemplate(data)),
+    });
+
+    const response = {
+      ok: true,
+      requestId,
+      messageId: result.messageId,
+      accepted: result.accepted,
+      rejected: result.rejected,
+      smtpResponse: result.response,
+    };
+
+    console.info(`[contact-form][${requestId}] SMTP delivery accepted`, response);
+
+    return response;
+  } catch (error) {
+    console.error(`[contact-form][${requestId}] SMTP delivery failed`, {
+      name: error?.name,
+      message: error?.message,
+      code: error?.code,
+      command: error?.command,
+      responseCode: error?.responseCode,
+      response: error?.response,
+    });
+
+    return {
+      ok: false,
+      requestId,
+      error: "Email delivery failed",
+      code: error?.code,
+      responseCode: error?.responseCode,
+    };
+  }
 }

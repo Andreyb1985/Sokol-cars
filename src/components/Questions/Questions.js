@@ -21,9 +21,16 @@ const defaultValues = {
 
 const Questions = () => {
 
-	const onSubmit = (values) => {
-		console.log("DEBUG values", values);
-		handler(values);
+	const onSubmit = async (values) => {
+		console.info('[contact-form] Sending request to server')
+		const response = await handler(values)
+		console.info('[contact-form] Server response', response)
+
+		if (!response.ok) {
+			console.error('[contact-form] Email was not sent', response)
+		}
+
+		return response
 	}
 	const t = useTranslations('AboutUs');
 
@@ -36,9 +43,12 @@ const Questions = () => {
 					validateOnChange={false}
 					validateOnBlur={false}
 					initialValues={defaultValues}
-					onSubmit={(values, formikHelpers) => {
-						onSubmit(values)
-						formikHelpers.resetForm()
+					onSubmit={async (values, formikHelpers) => {
+						const response = await onSubmit(values)
+
+						if (response.ok) {
+							formikHelpers.resetForm()
+						}
 					}}
 					validationSchema={validationScheme}
 				>
