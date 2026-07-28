@@ -152,6 +152,215 @@
     "AboutUs11": "Mail:",
     "AboutUs12": "Phone number:",
     "AboutUs13": "Working time: From 10.00 to 18.00."
-
+  },
+  "GermanyLanding": {
+    "nav": {
+      "aria": "Main navigation",
+      "language": "Language",
+      "services": "Services",
+      "inspection": "What we inspect",
+      "process": "How it works",
+      "benefits": "Benefits",
+      "contact": "Contact",
+      "usa": "Cars from the USA"
+    },
+    "hero": {
+      "eyebrow": "Vehicle expertise in NRW",
+      "title": "Vehicle inspection and selection",
+      "accent": "in Germany",
+      "subtitle": "Inspection, diagnostics and purchase support for vehicles in NRW",
+      "primary": "Book an inspection",
+      "secondary": "Services and prices",
+      "stats": [
+        {
+          "value": "Since 2019",
+          "label": "Working with vehicles"
+        },
+        {
+          "value": "More than 100",
+          "label": "vehicles"
+        },
+        {
+          "value": "24/7 support",
+          "label": "in touch with clients"
+        }
+      ],
+      "imageAlt": "Inspected BMW X5 vehicle",
+      "visualTag": "Vehicle inspection in NRW",
+      "visualEyebrow": "Start with one step",
+      "visualTitle": "Send us the vehicle for inspection"
+    },
+    "pricing": {
+      "eyebrow": "Services and prices",
+      "title": "Choose how we work",
+      "included": "Inspection includes",
+      "includedItems": [
+        "Interior and exterior",
+        "Computer diagnostics",
+        "Paint inspection",
+        "Photo and video report",
+        "Test drive"
+      ],
+      "region": "All inspections in NRW",
+      "packages": [
+        {
+          "label": "One-time check",
+          "title": "Single inspection",
+          "price": "80 €",
+          "suffix": "",
+          "description": "A vehicle inspection based on your request.",
+          "cta": "Book an inspection",
+          "featured": false
+        },
+        {
+          "label": "Full support",
+          "title": "Turnkey vehicle search",
+          "price": "500 €",
+          "suffix": "",
+          "description": "A complete vehicle search and selection service in Germany.",
+          "cta": "Send a request",
+          "featured": true
+        },
+        {
+          "label": "For businesses",
+          "title": "Business package",
+          "price": "60 €",
+          "suffix": "per inspection, from 10 inspections",
+          "description": "An offer for dealers and wholesale customers.",
+          "cta": "Discuss cooperation",
+          "featured": false
+        }
+      ]
+    },
+    "inspection": {
+      "eyebrow": "Professional inspection",
+      "title": "What the inspection covers",
+      "subtitle": "We inspect the vehicle before purchase and provide the results to the client.",
+      "imageAlt": "Vehicle during an inspection",
+      "mediaLabel": "Inspection in NRW",
+      "items": [
+        {
+          "title": "Interior and exterior",
+          "text": "Inspection of the vehicle's condition inside and out."
+        },
+        {
+          "title": "Computer diagnostics",
+          "text": "Electronic systems checked with diagnostic equipment."
+        },
+        {
+          "title": "Paint inspection",
+          "text": "Measurement of the vehicle's paint coating."
+        },
+        {
+          "title": "Photo and video report",
+          "text": "We document the inspection results for the client."
+        },
+        {
+          "title": "Test drive",
+          "text": "We check the vehicle on the road."
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "Process",
+    "title": "From request to result",
+    "subtitle": "A clear process for inspecting or selecting a vehicle in Germany.",
+    "steps": [
+      {
+        "title": "Contact us",
+        "text": "Use the form, phone or WhatsApp."
+      },
+      {
+        "title": "Send the vehicle details",
+        "text": "Share the listing link or the seller's contact details."
+      },
+      {
+        "title": "We inspect the vehicle",
+        "text": "A specialist checks the vehicle using a checklist."
+      },
+      {
+        "title": "Receive the results",
+        "text": "Photos, video and an assessment of the vehicle."
+      },
+      {
+        "title": "Purchase support",
+        "text": "With the turnkey package, through completion of the deal."
+        }
+      ]
+    },
+    "benefits": {
+      "eyebrow": "Why Sokol Autos",
+      "title": "An inspection without unnecessary uncertainty",
+      "subtitle": "Practical experience and a clear process for working with vehicles in Germany.",
+      "items": [
+      {
+        "title": "Checklist-based inspection",
+        "text": "We check the vehicle's key areas and condition using a consistent checklist."
+        },
+        {
+          "title": "Professional diagnostics",
+          "text": "Visual inspection, paint check, computer diagnostics and test drive."
+        },
+        {
+          "title": "24/7 support",
+          "text": "We advise clients and stay in touch on vehicle purchase questions."
+        }
+      ]
+    },
+    "stories": {
+      "eyebrow": "Our work",
+      "title": "Real client vehicles",
+      "all": "All stories"
+    },
+    "faq": {
+      "eyebrow": "Clear answers",
+      "title": "Frequently asked questions",
+      "subtitle": "The essential information before booking an inspection.",
+      "items": [
+        {
+          "question": "Where do you carry out inspections?",
+          "answer": "Inspections at the listed prices are carried out in North Rhine-Westphalia (NRW)."
+        },
+        {
+          "question": "What does the vehicle inspection include?",
+          "answer": "Interior and exterior inspection, computer diagnostics, paint inspection, photo and video report, and a test drive."
+        },
+        {
+          "question": "How much does a single inspection cost?",
+          "answer": "A single inspection costs €80 in NRW."
+        },
+        {
+          "question": "What are the terms for businesses?",
+          "answer": "For orders of 10 or more inspections, one inspection costs €60."
+        }
+      ]
+    },
+    "form": {
+      "eyebrow": "Request",
+      "title": "Book a vehicle inspection",
+      "subtitle": "Leave your contact details and a message, and we will get in touch.",
+      "name": "Your name",
+      "phone": "Phone",
+    "email": "Email",
+    "carLink": "Vehicle link (optional)",
+    "carLinkPlaceholder": "mobile.de or autoscout24.de",
+    "message": "Message",
+      "button": "Send request",
+      "sending": "Sending…",
+      "success": "Your request has been sent. We will contact you.",
+      "error": "We could not send your request. Please try again."
+    },
+    "usa": {
+      "eyebrow": "Separate service",
+      "title": "We also work with vehicles from the USA",
+      "link": "Go to the USA page"
+    },
+    "footer": {
+      "description": "Vehicle inspection and selection in Germany.",
+      "navigation": "Navigation",
+      "faq": "Frequently asked questions",
+      "contacts": "Contacts",
+      "address": "Address"
+    }
   }
 }

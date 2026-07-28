@@ -3,7 +3,7 @@ import { Text } from "@react-email/text";
 import { Section } from "@react-email/section";
 import { Container } from "@react-email/container";
 
-export default function WelcomeEmail({email, name, phoneNumber, message}) {
+export default function WelcomeEmail({email, name, phoneNumber, carLink, message}) {
 	return (
 		<Html>
 			<Section style={main}>
@@ -12,6 +12,7 @@ export default function WelcomeEmail({email, name, phoneNumber, message}) {
 					<Text style={paragraph}>{name}</Text>
 					<Text style={paragraph}>{email}</Text>
 					<Text style={paragraph}>{phoneNumber}</Text>
+					{carLink ? <Text style={paragraph}>Ссылка на автомобиль: {carLink}</Text> : null}
 					<Text style={paragraph}>{message}</Text>
 				</Container>
 			</Section>

@@ -148,5 +148,215 @@
     "AboutUs11": "E-Mail",
     "AboutUs12": "Telefonnummer",
     "AboutUs13": "Offnungszeiten: Von 10.00 bis 18.00 Uhr."
+  },
+  "GermanyLanding": {
+    "nav": {
+      "aria": "Hauptnavigation",
+      "language": "Sprache",
+      "services": "Leistungen",
+      "inspection": "Prüfumfang",
+      "process": "Ablauf",
+      "benefits": "Vorteile",
+      "contact": "Kontakt",
+      "usa": "Fahrzeuge aus den USA"
+    },
+    "hero": {
+      "eyebrow": "Fahrzeugexpertise in NRW",
+      "title": "Fahrzeugprüfung und Autosuche",
+      "accent": "in Deutschland",
+      "subtitle": "Besichtigung, Diagnose und Kaufbegleitung für Fahrzeuge in NRW",
+      "primary": "Prüfung anfragen",
+      "secondary": "Leistungen und Preise",
+      "stats": [
+        {
+          "value": "Seit 2019",
+          "label": "Erfahrung mit Fahrzeugen"
+        },
+        {
+          "value": "Über 100",
+          "label": "Fahrzeuge"
+        },
+        {
+          "value": "Support 24/7",
+          "label": "für unsere Kunden"
+        }
+      ],
+      "imageAlt": "Geprüfter BMW X5",
+      "visualTag": "Fahrzeugprüfung in NRW",
+      "visualEyebrow": "Mit einem Schritt starten",
+      "visualTitle": "Fahrzeug zur Prüfung senden"
+    },
+    "pricing": {
+      "eyebrow": "Leistungen und Preise",
+      "title": "Wählen Sie das passende Angebot",
+      "included": "In der Prüfung enthalten",
+      "includedItems": [
+        "Innenraum und Exterieur",
+        "Computerdiagnose",
+        "Lackprüfung",
+        "Foto- und Videobericht",
+        "Probefahrt"
+      ],
+      "region": "Alle Prüfungen in NRW",
+      "packages": [
+        {
+          "label": "Einzelprüfung",
+          "title": "Einmalige Prüfung",
+          "price": "80 €",
+          "suffix": "",
+          "description": "Fahrzeugprüfung nach Ihrer Anfrage.",
+          "cta": "Prüfung anfragen",
+          "featured": false
+        },
+        {
+          "label": "Komplettbegleitung",
+          "title": "Schlüsselfertige Autosuche",
+          "price": "500 €",
+          "suffix": "",
+          "description": "Komplette Suche und Auswahl eines Fahrzeugs in Deutschland.",
+          "cta": "Anfrage senden",
+          "featured": true
+        },
+        {
+          "label": "Für Unternehmen",
+          "title": "Geschäftskunden",
+          "price": "60 €",
+          "suffix": "pro Prüfung, ab 10 Prüfungen",
+          "description": "Angebot für Händler und Großkunden.",
+          "cta": "Zusammenarbeit besprechen",
+          "featured": false
+        }
+      ]
+    },
+    "inspection": {
+      "eyebrow": "Professionelle Prüfung",
+      "title": "Was wird geprüft?",
+      "subtitle": "Wir prüfen das Fahrzeug vor dem Kauf und stellen dem Kunden die Ergebnisse zur Verfügung.",
+      "imageAlt": "Fahrzeug während einer Prüfung",
+      "mediaLabel": "Prüfung in NRW",
+      "items": [
+        {
+          "title": "Innenraum und Exterieur",
+          "text": "Prüfung des Fahrzeugzustands von innen und außen."
+        },
+        {
+          "title": "Computerdiagnose",
+          "text": "Prüfung der elektronischen Systeme mit Diagnosegeräten."
+        },
+        {
+          "title": "Lackprüfung",
+          "text": "Messung der Lackschicht des Fahrzeugs."
+        },
+        {
+          "title": "Foto- und Videobericht",
+          "text": "Wir dokumentieren die Prüfergebnisse für den Kunden."
+        },
+        {
+          "title": "Probefahrt",
+          "text": "Wir prüfen das Fahrzeug während der Fahrt."
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "Ablauf",
+    "title": "Von der Anfrage zum Ergebnis",
+    "subtitle": "Ein klarer Ablauf für die Prüfung oder Suche eines Fahrzeugs in Deutschland.",
+    "steps": [
+      {
+        "title": "Kontakt aufnehmen",
+        "text": "Über das Formular, per Telefon oder WhatsApp."
+      },
+      {
+        "title": "Fahrzeugdaten senden",
+        "text": "Den Link zur Anzeige oder die Kontaktdaten des Verkäufers."
+      },
+      {
+        "title": "Wir prüfen das Fahrzeug",
+        "text": "Ein Experte prüft das Fahrzeug nach einer Checkliste."
+      },
+      {
+        "title": "Ergebnisse erhalten",
+        "text": "Fotos, Videos und eine Einschätzung zum Fahrzeug."
+      },
+      {
+        "title": "Kaufbegleitung",
+        "text": "Beim Komplettpaket bis zum Abschluss des Kaufs."
+        }
+      ]
+    },
+    "benefits": {
+      "eyebrow": "Warum Sokol Autos",
+      "title": "Prüfung ohne unnötige Unsicherheit",
+      "subtitle": "Praktische Erfahrung und ein klarer Ablauf bei Fahrzeugen in Deutschland.",
+      "items": [
+      {
+        "title": "Prüfung nach Checkliste",
+        "text": "Wir prüfen die wichtigsten Bereiche und den Fahrzeugzustand nach einer klaren Checkliste."
+        },
+        {
+          "title": "Professionelle Diagnose",
+          "text": "Besichtigung, Lackprüfung, Computerdiagnose und Probefahrt."
+        },
+        {
+          "title": "Support 24/7",
+          "text": "Wir beraten und bleiben bei Fragen zum Fahrzeugkauf erreichbar."
+        }
+      ]
+    },
+    "stories": {
+      "eyebrow": "Praxis",
+      "title": "Echte Kundenfahrzeuge",
+      "all": "Alle Geschichten"
+    },
+    "faq": {
+      "eyebrow": "Kurz erklärt",
+      "title": "Häufige Fragen",
+      "subtitle": "Die wichtigsten Informationen vor der Buchung einer Prüfung.",
+      "items": [
+        {
+          "question": "Wo führen Sie Prüfungen durch?",
+          "answer": "Prüfungen zu den angegebenen Preisen werden in Nordrhein-Westfalen (NRW) durchgeführt."
+        },
+        {
+          "question": "Was beinhaltet die Fahrzeugprüfung?",
+          "answer": "Innen- und Außenprüfung, Computerdiagnose, Lackprüfung, Foto- und Videobericht sowie Probefahrt."
+        },
+        {
+          "question": "Was kostet eine Einzelprüfung?",
+          "answer": "Eine Einzelprüfung kostet 80 € in NRW."
+        },
+        {
+          "question": "Welche Konditionen gelten für Unternehmen?",
+          "answer": "Ab 10 Prüfungen kostet eine Prüfung 60 €."
+        }
+      ]
+    },
+    "form": {
+      "eyebrow": "Anfrage",
+      "title": "Fahrzeugprüfung anfragen",
+      "subtitle": "Hinterlassen Sie Ihre Kontaktdaten und eine Nachricht. Wir melden uns bei Ihnen.",
+      "name": "Ihr Name",
+      "phone": "Telefon",
+    "email": "E-Mail",
+    "carLink": "Link zum Fahrzeug (optional)",
+    "carLinkPlaceholder": "mobile.de oder autoscout24.de",
+    "message": "Nachricht",
+      "button": "Anfrage senden",
+      "sending": "Wird gesendet…",
+      "success": "Ihre Anfrage wurde gesendet. Wir melden uns bei Ihnen.",
+      "error": "Die Anfrage konnte nicht gesendet werden. Bitte versuchen Sie es erneut."
+    },
+    "usa": {
+      "eyebrow": "Separates Angebot",
+      "title": "Wir arbeiten auch mit Fahrzeugen aus den USA",
+      "link": "Zur USA-Seite"
+    },
+    "footer": {
+      "description": "Fahrzeugprüfung und Autosuche in Deutschland.",
+      "navigation": "Navigation",
+      "faq": "Häufige Fragen",
+      "contacts": "Kontakte",
+      "address": "Adresse"
+    }
   }
 }

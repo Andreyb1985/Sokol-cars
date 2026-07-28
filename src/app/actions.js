@@ -37,6 +37,7 @@ export async function handler(data) {
       name: Boolean(data?.name),
       phoneNumber: Boolean(data?.phoneNumber),
       email: Boolean(data?.email),
+      carLink: Boolean(data?.carLink),
       message: Boolean(data?.message),
     },
   });
@@ -45,7 +46,13 @@ export async function handler(data) {
     const result = await sendEmail({
       to: recipient,
       subject: "SOKOL CARS REQUEST",
-      html: render(WelcomeTemplate(data)),
+      html: render(WelcomeTemplate({
+        name: data?.name,
+        phoneNumber: data?.phoneNumber,
+        email: data?.email,
+        carLink: data?.carLink,
+        message: data?.message,
+      })),
     });
 
     const response = {
