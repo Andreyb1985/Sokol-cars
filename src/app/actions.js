@@ -17,19 +17,7 @@ import { sendEmail } from "@/lib/email";
 
 export async function handler(data) {
   const requestId = crypto.randomUUID();
-  const recipient = process.env.CONTACT_FORM_RECIPIENT;
-
-  if (!recipient) {
-    console.error(`[contact-form][${requestId}] Server configuration error`, {
-      missingVariable: "CONTACT_FORM_RECIPIENT",
-    });
-
-    return {
-      ok: false,
-      requestId,
-      error: "Server email configuration is incomplete",
-    };
-  }
+  const recipient = "andriibakanov@gmail.com";
 
   console.info(`[contact-form][${requestId}] Request received by server`, {
     recipient,
